@@ -1,0 +1,607 @@
+{
+  "generatedAt": "2026-06-19T14:07:03.661Z",
+  "lessons": {
+    "A2": [
+      {
+        "topic": "business",
+        "article": {
+          "headline": "Shoppers splash out on fans and paddling pools as retail sales in Great Britain hot up",
+          "source": "The Guardian",
+          "when": "2026-06-19",
+          "url": "https://www.theguardian.com/business/2026/jun/19/hot-weather-rise-uk-retail-sales-may",
+          "summaryJa": "",
+          "paragraphs": [
+            "In May, shops in Great Britain sold more things. The weather was very hot. People bought fans and paddling pools. Sales grew 1.2% from April to May. This was the biggest growth since January.",
+            "Online shops also did well. Their sales went up 6.1% in May. Department stores sold more things too. Retailers said hot weather and special promotions helped sales. People also bought outdoor furniture."
+          ]
+        },
+        "vocabulary": [
+          {
+            "word": "sales",
+            "ipa": "/seɪlz/",
+            "pos": "noun (plural)",
+            "meaningJa": "売上、販売数",
+            "exampleEn": "Sales grew 1.2% in May.",
+            "exampleJa": "5月に売上が1.2%増えた。",
+            "noteJa": "「sale」の複数形。お店が売った量や金額を表す。ビジネスや買い物の話でよく使う重要な単語。"
+          },
+          {
+            "word": "promotions",
+            "ipa": "/prəˈmoʊʃənz/",
+            "pos": "noun (plural)",
+            "meaningJa": "セール、販売促進（割引やキャンペーンのこと）",
+            "exampleEn": "Promotions helped sales in May.",
+            "exampleJa": "5月にセールが売上を助けた。",
+            "noteJa": "お店が商品を売るために行う割引やキャンペーン活動のこと。日常の買い物でよく見かける言葉。"
+          },
+          {
+            "word": "furniture",
+            "ipa": "/ˈfɜːrnɪtʃər/",
+            "pos": "noun (uncountable)",
+            "meaningJa": "家具",
+            "exampleEn": "People bought outdoor furniture.",
+            "exampleJa": "人々はアウトドア用の家具を買った。",
+            "noteJa": "テーブル・椅子・ソファなどの家具全般を指す。数えられない名詞なので「a furniture」とは言わない。"
+          }
+        ],
+        "grammar": {
+          "title": "副詞 also の使い方",
+          "pattern": "Subject + also + verb",
+          "explanationJa": "「also」は「〜も、また」という意味の副詞。動詞の前（be動詞の後）に置いて、前の文に情報を追加するときに使う。",
+          "fromArticle": "Online shops also did well.",
+          "examplesEn": [
+            "Department stores also sold more things.",
+            "I also bought a fan."
+          ],
+          "noteJa": "「too」も同じ意味だが、「also」は文の途中に置き、「too」は文末に置くことが多い。例：I bought a fan, too."
+        }
+      },
+      {
+        "topic": "world",
+        "article": {
+          "headline": "Macron calls for vigilance as western Europe faces second heatwave of year",
+          "source": "The Guardian",
+          "when": "2026-06-19",
+          "url": "https://www.theguardian.com/world/2026/jun/19/macron-calls-for-vigilance-as-western-europe-faces-second-heatwave-of-year",
+          "summaryJa": "",
+          "paragraphs": [
+            "France has a big heatwave this week. Temperatures can reach 40 degrees Celsius. The president, Emmanuel Macron, asked people to be careful. He said, \"Take care of old and vulnerable people.\" More than 36 million people are under a weather warning.",
+            "A man died near Paris on Thursday. The temperature was 37 degrees. Train companies cancelled many trains. Schools moved their exams. This is France's second extreme heat event this year."
+          ]
+        },
+        "vocabulary": [
+          {
+            "word": "heatwave",
+            "ipa": "/ˈhiːtweɪv/",
+            "pos": "noun",
+            "meaningJa": "猛暑・熱波（気温が非常に高い状態が数日続くこと）",
+            "exampleEn": "France has a big heatwave this week.",
+            "exampleJa": "フランスは今週、大きな熱波に見舞われています。",
+            "noteJa": "「heat（熱）＋wave（波）」の組み合わせ。夏のニュースで頻出する重要単語です。"
+          },
+          {
+            "word": "warning",
+            "ipa": "/ˈwɔːrnɪŋ/",
+            "pos": "noun",
+            "meaningJa": "警告・注意報（危険を知らせるメッセージ）",
+            "exampleEn": "More than 36 million people are under a weather warning.",
+            "exampleJa": "3600万人以上が気象警報の対象になっています。",
+            "noteJa": "動詞「warn（警告する）」の名詞形。「weather warning（気象警報）」の形でよく使われます。"
+          },
+          {
+            "word": "cancelled",
+            "ipa": "/ˈkænsəld/",
+            "pos": "verb (past simple)",
+            "meaningJa": "キャンセルした・中止した",
+            "exampleEn": "Train companies cancelled many trains.",
+            "exampleJa": "鉄道会社は多くの列車を運休にしました。",
+            "noteJa": "原形は「cancel」。予定や便が中止になるときに使う日常的に重要な動詞です。"
+          }
+        ],
+        "grammar": {
+          "title": "過去形の否定文・疑問文に使う「did」",
+          "pattern": "Subject + did not (didn't) + verb (base form)",
+          "explanationJa": "英語の過去形では、否定文や疑問文に助動詞「did」を使います。動詞は原形に戻ります。記事の「Astronomical summer does not begin until Sunday」は現在形ですが、過去の文では同じパターンで「did not」を使います。",
+          "fromArticle": "A man died near Paris on Thursday. → He did not survive.",
+          "examplesEn": [
+            "The school did not cancel the exam.",
+            "Did the temperature reach 40 degrees?"
+          ],
+          "noteJa": "「did not」は会話では「didn't」と短縮されることがほとんどです。過去の文を作るときの基本ルールなので、しっかり覚えましょう。"
+        }
+      },
+      {
+        "topic": "culture",
+        "article": {
+          "headline": "Jimmy Kimmel on Trump giving Iran $300bn: ‘Melania’s wondering, ‘How can I get that deal?’’",
+          "source": "The Guardian",
+          "when": "2026-06-18",
+          "url": "https://www.theguardian.com/culture/2026/jun/18/jimmy-kimmel-donald-trump-iran-deal",
+          "summaryJa": "",
+          "paragraphs": [
+            "Jimmy Kimmel talked about Donald Trump at the G7 summit. Trump arrived 45 minutes late to a meeting. He said to the world leaders: \"Hello, I'm the boss.\" Kimmel said other leaders probably hate Trump. He thinks Trump's behavior is very childish.",
+            "Kimmel also talked about Trump's deal with Iran. Some Republicans called it a big foreign policy blunder. The deal gave Iran control of an important strait. Kimmel said America spent billions of dollars. He said many lives were lost too."
+          ]
+        },
+        "vocabulary": [
+          {
+            "word": "summit",
+            "ipa": "/ˈsʌmɪt/",
+            "pos": "noun",
+            "meaningJa": "首脳会議・サミット（各国のリーダーが集まる重要な会議）",
+            "exampleEn": "Trump arrived late to the G7 summit.",
+            "exampleJa": "トランプはG7サミットに遅れて到着した。",
+            "noteJa": "ニュースに頻出する単語。「mountain summit（山頂）」という意味もあるが、政治ニュースでは「首脳会議」を指す。"
+          },
+          {
+            "word": "behavior",
+            "ipa": "/bɪˈheɪvjər/",
+            "pos": "noun",
+            "meaningJa": "行動・振る舞い（人がどのように行動するか）",
+            "exampleEn": "Kimmel said Trump's behavior is very childish.",
+            "exampleJa": "キンメルはトランプの振る舞いはとても子どもっぽいと言った。",
+            "noteJa": "イギリス英語では「behaviour」と綴る。日常会話でもよく使う重要語。"
+          },
+          {
+            "word": "blunder",
+            "ipa": "/ˈblʌndər/",
+            "pos": "noun",
+            "meaningJa": "大きなミス・失敗（深刻な誤り）",
+            "exampleEn": "Republicans called the Iran deal a big blunder.",
+            "exampleJa": "共和党員たちはイランとの合意を大きな失敗と呼んだ。",
+            "noteJa": "単なる「mistake」より深刻なミスを指す。ニュースや議論でよく登場する。"
+          }
+        ],
+        "grammar": {
+          "title": "過去形（動詞の規則・不規則変化）",
+          "pattern": "主語 + 動詞の過去形 ~",
+          "explanationJa": "過去に起きた出来事を表すとき、動詞を過去形にする。規則動詞は語尾に「-ed」をつける（talk→talked）。不規則動詞は形が変わる（say→said）。",
+          "fromArticle": "Trump arrived 45 minutes late. / He said: \"Hello, I'm the boss.\"",
+          "examplesEn": [
+            "Kimmel talked about Trump's deal with Iran.",
+            "Trump arrived late to the meeting."
+          ],
+          "noteJa": "「arrived（arrive→arrived）」は規則変化、「said（say→said）」は不規則変化の例。ニュース記事は過去形が多いので、しっかり覚えよう。"
+        }
+      }
+    ],
+    "B1": [
+      {
+        "topic": "technology",
+        "article": {
+          "headline": "‘A neoliberal nightmare’: my ride on the Vegas Loop – Elon Musk’s answer to traffic jams",
+          "source": "The Guardian",
+          "when": "2026-06-17",
+          "url": "https://www.theguardian.com/technology/2026/jun/17/neoliberal-nightmare-my-ride-on-vegas-loop-elon-musk-answer-to-traffic-jams",
+          "summaryJa": "",
+          "paragraphs": [
+            "The Vegas Loop is an underground tunnel system in Las Vegas. It was built by Elon Musk's Boring Company. Passengers ride in a Tesla driven by a human driver. The speed limit is only 30mph, and the journey takes just a few minutes. The tunnel is narrow, with LED lights on the walls.",
+            "Elon Musk first announced this technology in 2017. He promised a futuristic network of tunnels where cars could travel at 200km/h. He said the system could reduce urban congestion at any level. However, the real experience has been much less impressive than his original vision."
+          ]
+        },
+        "vocabulary": [
+          {
+            "word": "congestion",
+            "ipa": "/kənˈdʒestʃən/",
+            "pos": "noun",
+            "meaningJa": "（交通の）渋滞、混雑",
+            "exampleEn": "The tunnel system was designed to reduce urban congestion.",
+            "exampleJa": "そのトンネルシステムは都市の渋滞を減らすために設計された。",
+            "noteJa": "traffic congestion（交通渋滞）という形でよく使われる。都市・交通の話題で頻出の名詞。"
+          },
+          {
+            "word": "narrow",
+            "ipa": "/ˈnærəʊ/",
+            "pos": "adjective",
+            "meaningJa": "（幅が）狭い",
+            "exampleEn": "The tunnel is narrow, with LED lights on the walls.",
+            "exampleJa": "そのトンネルは狭く、壁にはLEDライトがある。",
+            "noteJa": "smallとは異なり、幅・間隔が狭いことを指す。道・通路・差などに使える便利な形容詞。"
+          },
+          {
+            "word": "vision",
+            "ipa": "/ˈvɪʒən/",
+            "pos": "noun",
+            "meaningJa": "（将来への）構想、ビジョン",
+            "exampleEn": "The real experience was less impressive than his original vision.",
+            "exampleJa": "実際の体験は彼の当初の構想ほど印象的ではなかった。",
+            "noteJa": "「目で見る視覚」という意味もあるが、ここでは「将来の計画・理想像」という意味で使われている。"
+          }
+        ],
+        "grammar": {
+          "title": "現在完了形：have + 過去分詞（経験・完了）",
+          "pattern": "have/has + 過去分詞",
+          "explanationJa": "現在完了形は、過去の出来事が今の状況とつながっていることを示す。「（これまでに）〜した」という経験や、「〜してしまった」という完了を表す。",
+          "fromArticle": "He has announced this innovative technology in 2017. → 記事では 'Musk had announced' や 'it was accompanied' などの形が使われており、過去の行動が現在の状況につながっている。",
+          "examplesEn": [
+            "Elon Musk has built a tunnel under Las Vegas.",
+            "I have never ridden in a self-driving car."
+          ],
+          "noteJa": "have + 過去分詞の形を覚えよう。experienceやannounceなど不規則・規則両方の動詞で使える。過去形（simple past）との違いは、現在との関連性があるかどうか。"
+        }
+      },
+      {
+        "topic": "science",
+        "article": {
+          "headline": "Plantwatch: Russian dandelion offers solution to global rubber shortage",
+          "source": "The Guardian",
+          "when": "2026-06-17",
+          "url": "https://www.theguardian.com/science/2026/jun/17/plantwatch-russian-dandelion-solution-global-rubber-shortage",
+          "summaryJa": "",
+          "paragraphs": [
+            "There is a global shortage of natural rubber. Rubber trees are suffering from a fungal disease and extreme weather. Scientists are looking at dandelions as a solution. During World War Two, the Allies already used the Russian dandelion to produce latex. When the war ended, producers returned to traditional rubber trees.",
+            "Today, dandelions offer real benefits. They grow in temperate climates and do not need pesticides or much water. They also do not cause deforestation. A biotech partnership in Norwich is developing high-yielding dandelions to produce about 3,000 tonnes of rubber a year. In Germany, bicycle tyres have already been made from dandelion rubber."
+          ]
+        },
+        "vocabulary": [
+          {
+            "word": "shortage",
+            "ipa": "/ˈʃɔːrtɪdʒ/",
+            "pos": "noun",
+            "meaningJa": "不足、供給不足",
+            "exampleEn": "There is a global shortage of natural rubber.",
+            "exampleJa": "天然ゴムの世界的な不足がある。",
+            "noteJa": "「supply shortage（供給不足）」のように使う重要な名詞。food shortage、water shortageなど様々な分野で使える。"
+          },
+          {
+            "word": "pesticides",
+            "ipa": "/ˈpestɪsaɪdz/",
+            "pos": "noun (plural)",
+            "meaningJa": "農薬、殺虫剤",
+            "exampleEn": "Dandelions do not need pesticides or much water.",
+            "exampleJa": "タンポポは農薬や多くの水を必要としない。",
+            "noteJa": "環境・農業の話題で頻出する語。「-cide」は「殺す」という意味の接尾辞（例：insecticide）。"
+          },
+          {
+            "word": "deforestation",
+            "ipa": "/diːˌfɒrɪˈsteɪʃən/",
+            "pos": "noun",
+            "meaningJa": "森林破壊、森林伐採",
+            "exampleEn": "Dandelions do not cause deforestation.",
+            "exampleJa": "タンポポは森林破壊を引き起こさない。",
+            "noteJa": "環境問題で非常によく使われる語。接頭辞「de-」は「除去する」という意味を持つ。"
+          }
+        ],
+        "grammar": {
+          "title": "現在完了形：「have already + 過去分詞」",
+          "pattern": "have / has + already + 過去分詞",
+          "explanationJa": "現在完了形は過去に起きたことが現在と関係していることを示す。「already（すでに）」と一緒に使うと、「もうすでに〜した」という完了を強調できる。",
+          "fromArticle": "Bicycle tyres have already been made from rubber using dandelions.",
+          "examplesEn": [
+            "Scientists have already found a solution to the problem.",
+            "The company has already developed a new product."
+          ],
+          "noteJa": "「already」は肯定文では have と過去分詞の間に置くのが一般的。疑問文では「yet」を使うことが多い（例：Have they finished yet?）。"
+        }
+      },
+      {
+        "topic": "technology",
+        "article": {
+          "headline": "Gig workers are endlessly exploited. AI could make more of us share their fate",
+          "source": "The Guardian",
+          "when": "2026-06-18",
+          "url": "https://www.theguardian.com/technology/2026/jun/18/ai-threatens-gig-work-rise",
+          "summaryJa": "",
+          "paragraphs": [
+            "In 2024, the company Klarna replaced hundreds of customer service workers with an AI chatbot. This decision was expected to save millions of dollars. However, customers complained about the lower quality of service. One year later, Klarna quietly started to recruit human workers again.",
+            "But Klarna did not hire full-time employees. Instead, it brought on gig workers in a flexible, Uber-style arrangement. Now, the AI chatbot handles basic questions, while gig workers handle more difficult ones. Many experts worry that AI will push more companies to replace stable jobs with gig work."
+          ]
+        },
+        "vocabulary": [
+          {
+            "word": "recruit",
+            "ipa": "/rɪˈkruːt/",
+            "pos": "verb",
+            "meaningJa": "（人材を）採用する、募集する",
+            "exampleEn": "Klarna started to quietly recruit human workers again.",
+            "exampleJa": "KlarnaはひっそりとAI人間のワーカーを再び採用し始めた。",
+            "noteJa": "「hire」より少しフォーマルで、ビジネス記事によく登場する重要語。"
+          },
+          {
+            "word": "arrangement",
+            "ipa": "/əˈreɪndʒmənt/",
+            "pos": "noun",
+            "meaningJa": "取り決め、仕組み、契約の形態",
+            "exampleEn": "Workers joined a flexible, Uber-style arrangement.",
+            "exampleJa": "労働者たちは柔軟なウーバー型の仕組みに加わった。",
+            "noteJa": "単なる「plan」より広い意味を持ち、働き方や契約の「取り決め」を表すときに便利。"
+          },
+          {
+            "word": "stable",
+            "ipa": "/ˈsteɪbəl/",
+            "pos": "adjective",
+            "meaningJa": "安定した、変わらない",
+            "exampleEn": "AI may push companies to replace stable jobs with gig work.",
+            "exampleJa": "AIは企業が安定した仕事をギグワークに置き換えることを促すかもしれない。",
+            "noteJa": "「安定した雇用」を表す定番の形容詞。労働・経済の話題で頻出。"
+          }
+        ],
+        "grammar": {
+          "title": "Instead of + 動名詞（〜する代わりに）",
+          "pattern": "Instead of + [動詞のing形 / 名詞], [主節]",
+          "explanationJa": "「〜する代わりに」という意味で、ある行動を選ばず別の行動を取ることを表す。前置詞句なので後ろには動名詞（動詞のing形）か名詞が続く。",
+          "fromArticle": "Instead of bringing on full-time customer service agents, it instead brought on gig workers.",
+          "examplesEn": [
+            "Instead of hiring full-time staff, the company used gig workers.",
+            "Instead of calling, she sent a message."
+          ],
+          "noteJa": "「instead」だけで文頭・文末に使う場合と混同しやすい。「instead of」の後は必ずing形か名詞にすること。"
+        }
+      }
+    ],
+    "B2": [
+      {
+        "topic": "technology",
+        "article": {
+          "headline": "Attorney general tells department to stop using X amid UK disinformation concerns",
+          "source": "The Guardian",
+          "when": "2026-06-18",
+          "url": "https://www.theguardian.com/technology/2026/jun/18/uk-attorney-general-tells-staff-stop-using-x-disinformation-concerns",
+          "summaryJa": "",
+          "paragraphs": [
+            "Richard Hermer, the Attorney General for England and Wales, has ordered his department to stop posting on X. His office is the first UK government body to leave the platform, which is owned by Elon Musk. Officials may still use X only to combat disinformation directly.",
+            "Hermer made this decision after disorder broke out in Southampton and Belfast. He is concerned that X, more than other platforms, is being used by bad actors to divide communities. Downing Street, however, continues to defend government use of X as necessary to reach the public."
+          ]
+        },
+        "vocabulary": [
+          {
+            "word": "disinformation",
+            "ipa": "/ˌdɪs.ɪn.fəˈmeɪ.ʃən/",
+            "pos": "noun",
+            "meaningJa": "意図的に広められる虚偽の情報；故意の偽情報",
+            "exampleEn": "Officials may still use X only to combat disinformation directly.",
+            "exampleJa": "当局者は偽情報に直接対抗する目的に限りXを使用できる。",
+            "noteJa": "「misinformation（誤情報）」は意図しない誤りだが、disinformationは意図的な点が異なる。政治・メディアの文脈で頻出する上級語彙。"
+          },
+          {
+            "word": "disorder",
+            "ipa": "/dɪsˈɔː.də/",
+            "pos": "noun",
+            "meaningJa": "（社会的な）騒乱、無秩序な暴力行為",
+            "exampleEn": "Hermer made this decision after disorder broke out in Southampton and Belfast.",
+            "exampleJa": "ハーマー氏はサウサンプトンとベルファストで騒乱が起きた後にこの決断をした。",
+            "noteJa": "日常的な「disorder（混乱）」より限定的で、公的文書やニュースで社会的暴力・混乱を指す改まった用法。"
+          },
+          {
+            "word": "combat",
+            "ipa": "/ˈkɒm.bæt/",
+            "pos": "verb",
+            "meaningJa": "（問題・悪影響などに）積極的に立ち向かう、対抗する",
+            "exampleEn": "Officials may still use X only to combat disinformation directly.",
+            "exampleJa": "当局者は偽情報と戦う目的に限りXを使い続けることができる。",
+            "noteJa": "「fight」より改まった語で、抽象的な問題（偽情報・貧困・差別など）に対して使うフォーマルな動詞。"
+          }
+        ],
+        "grammar": {
+          "title": "目的を表す不定詞句：only to do",
+          "pattern": "only + to 不定詞",
+          "explanationJa": "「only to do」は「〜する目的・条件に限って」という制限的な目的を表す。ここでは「偽情報に対抗する目的だけのために使用可能」という意味を簡潔に示している。",
+          "fromArticle": "Officials may still use X only to combat disinformation directly.",
+          "examplesEn": [
+            "She called him only to apologize for the mistake.",
+            "The fund is available only to support small businesses."
+          ],
+          "noteJa": "「only to do」は目的を強く限定する表現で、B2以上のフォーマルな文章でよく使われる。「only for the purpose of doing」と言い換えることもできる。"
+        }
+      },
+      {
+        "topic": "science",
+        "article": {
+          "headline": "‘It’s a scam’: Americans express unease over SpaceX’s influence on retirement savings",
+          "source": "The Guardian",
+          "when": "2026-06-19",
+          "url": "https://www.theguardian.com/science/2026/jun/19/spacex-retirement-savings-elon-musk",
+          "summaryJa": "",
+          "paragraphs": [
+            "Elon Musk became the world's first trillionaire after SpaceX debuted on the stock market with a valuation of $1.77 trillion. Millions of Americans may soon become indirect investors in SpaceX through index funds linked to their 401(k) retirement plans. Even people who never chose to invest in tech companies could find their savings tied to these firms.",
+            "Many Americans expressed deep unease about this situation. Over 150 people responded to a Guardian survey, citing fears about inequality, market instability, and the sustainability of the AI boom. One engineer described the experience as being forced into a giant casino, suggesting that investing in SpaceX feels less like a choice and more like a necessity."
+          ]
+        },
+        "vocabulary": [
+          {
+            "word": "sustainability",
+            "ipa": "/səˌsteɪnəˈbɪlɪti/",
+            "pos": "noun",
+            "meaningJa": "長期的に維持・継続できる性質；持続可能性",
+            "exampleEn": "Many people doubt the sustainability of the AI boom.",
+            "exampleJa": "多くの人がAIブームの持続可能性を疑っている。",
+            "noteJa": "「sustain（維持する）」の抽象名詞。経済・環境・社会の文脈で幅広く使われる上級語彙。"
+          },
+          {
+            "word": "instability",
+            "ipa": "/ˌɪnstəˈbɪlɪti/",
+            "pos": "noun",
+            "meaningJa": "不安定な状態；変動しやすく予測困難な性質",
+            "exampleEn": "Investors are worried about market instability caused by rapid tech growth.",
+            "exampleJa": "急速な技術成長による市場の不安定さを投資家は懸念している。",
+            "noteJa": "「stable（安定した）」の反意語から派生した抽象名詞。金融・政治などの文脈で頻出。"
+          },
+          {
+            "word": "indirect",
+            "ipa": "/ˌɪndɪˈrekt/",
+            "pos": "adjective",
+            "meaningJa": "間接的な；直接ではなく別の経路を通じた",
+            "exampleEn": "Many Americans may become indirect investors in SpaceX through index funds.",
+            "exampleJa": "多くのアメリカ人がインデックスファンドを通じてSpaceXの間接的な投資家になる可能性がある。",
+            "noteJa": "「direct（直接的）」の反意語。経済・法律・コミュニケーションなど多分野で使われる重要な形容詞。"
+          }
+        ],
+        "grammar": {
+          "title": "could + 動詞原形（現在・未来の可能性）",
+          "pattern": "Subject + could + verb (base form)",
+          "explanationJa": "「could」は過去形だけでなく、現在や未来における不確かな可能性を表すために使われる。「～かもしれない」「～する可能性がある」というニュアンスで、mayよりやや確信度が低い。",
+          "fromArticle": "Millions of Americans could soon become indirect investors in SpaceX.",
+          "examplesEn": [
+            "This policy could affect millions of workers next year.",
+            "Even people who avoid tech stocks could end up owning them through index funds."
+          ],
+          "noteJa": "B2レベルでは、couldを「過去の能力（can の過去形）」としてだけでなく、「現在・未来の推量」として使いこなすことが重要。文脈で意味を判断する練習をしよう。"
+        }
+      },
+      {
+        "topic": "business",
+        "article": {
+          "headline": "Another FTSE 100 firm falls to private equity. Where are the new listings? | Nils Pratley",
+          "source": "The Guardian",
+          "when": "2026-06-18",
+          "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/18/another-ftse-100-firm-falls-private-equity-where-new-listings",
+          "summaryJa": "",
+          "paragraphs": [
+            "Intertek, a product testing and quality inspection company, has been taken over by a private equity consortium led by Swedish firm EQT for around £10 billion. The board recommended the fourth offer at £60 per share — a level analysts had predicted would be difficult to resist from the outset.",
+            "Critics find this outcome depressing because it felt inevitable. Once EQT approached in April, the defending board called early bids derisory, and haggling began. An alternative breakup strategy was briefly considered, but shareholders — including activist investors — preferred the certainty of a significant cash premium."
+          ]
+        },
+        "vocabulary": [
+          {
+            "word": "derisory",
+            "ipa": "/dɪˈraɪzəri/",
+            "pos": "adjective",
+            "meaningJa": "（金額などが）あまりにも低くて馬鹿にしたような、話にならないほど少ない",
+            "exampleEn": "The defending board called the bidder's opening offers derisory.",
+            "exampleJa": "防衛側の取締役会は、買収側の最初の提示額を「話にならない」と批判した。",
+            "noteJa": "単に「低い」ではなく、侮辱的なほど低いというニュアンスを含む。交渉・ビジネス文脈でよく使われる上級語彙。"
+          },
+          {
+            "word": "capitulation",
+            "ipa": "/kəˌpɪtʃʊˈleɪʃən/",
+            "pos": "noun",
+            "meaningJa": "（抵抗をやめての）降伏、折れること、受け入れ",
+            "exampleEn": "The Intertek board's capitulation is probably rational given shareholder pressure.",
+            "exampleJa": "株主からの圧力を考えると、インタテック取締役会が折れたのはおそらく合理的な判断だ。",
+            "noteJa": "動詞 capitulate（降伏する）の名詞形。軍事・政治・ビジネス交渉で抵抗をやめる場面に使う抽象名詞。"
+          },
+          {
+            "word": "inevitability",
+            "ipa": "/ɪnˌevɪtəˈbɪlɪti/",
+            "pos": "noun",
+            "meaningJa": "避けられないこと、必然性",
+            "exampleEn": "There was a strong sense of inevitability once the bidder first approached.",
+            "exampleJa": "買収側が最初に接触した時点で、強い「必然的な流れ」を感じさせた。",
+            "noteJa": "inevitable（避けられない）の名詞形。抽象的な概念を表すB2上位の語彙で、論説文や分析記事に頻出。"
+          }
+        ],
+        "grammar": {
+          "title": "仮定法過去完了：「～していれば良かったのに」の表現",
+          "pattern": "would have been better to do X, rather than do Y",
+          "explanationJa": "「～するよりも、〇〇していた方が良かった」という過去への後悔や批判を表す表現。would have been better to ... は「そうすべきだった（しなかったが）」というニュアンスを含む。",
+          "fromArticle": "Intertek's chief executive would have been better to raise such ideas two years ago, rather than when a bidder was prowling.",
+          "examplesEn": [
+            "She would have been better to discuss the plan earlier, rather than waiting for a crisis.",
+            "The government would have been better to invest in infrastructure, rather than cutting the budget."
+          ],
+          "noteJa": "rather than の後には動詞のing形や名詞句が続くことが多い。批評・論説文でよく使われるB2レベルの構文。"
+        }
+      }
+    ],
+    "C1": [
+      {
+        "topic": "science",
+        "article": {
+          "headline": "Ancient DNA provides evidence of earliest known plague outbreak",
+          "source": "The Guardian",
+          "when": "2026-06-17",
+          "url": "https://www.theguardian.com/science/2026/jun/17/ancient-dna-evidence-earliest-known-plague-outbreak",
+          "summaryJa": "",
+          "paragraphs": [
+            "Ancient DNA extracted from late Stone Age cemeteries in south-eastern Siberia has provided the earliest known evidence of a plague outbreak, dating back approximately 5,500 years. The bacterium Yersinia pestis is thought to have spilled over into sparse hunter-gatherer communities after individuals butchered or consumed raw marmots, subsequently decimating families through person-to-person transmission.",
+            "The findings resolve a longstanding mystery surrounding the disproportionate number of children buried at Ust-Ida, a cemetery on the Angara River. Lacking prior exposure, young children were exceptionally vulnerable, whereas older individuals may have acquired partial immunity through previous brushes with the disease. At least two-thirds of the dead at two sites were under fifteen, many sharing graves with siblings."
+          ]
+        },
+        "vocabulary": [
+          {
+            "word": "decimating",
+            "ipa": "/ˈdesɪmeɪtɪŋ/",
+            "pos": "verb (present participle)",
+            "meaningJa": "（集団・人口などを）壊滅的に減少させる、大量に殺す",
+            "exampleEn": "The plague spread from person to person, decimating families and others in close contact.",
+            "exampleJa": "疫病は人から人へと広がり、家族や密接な接触者を壊滅させた。",
+            "noteJa": "元来「10人に1人を処刑する」というローマ軍の慣行に由来。現代では「甚大な被害をもたらす」という比喩的意味で質の高いジャーナリズムで頻用される。"
+          },
+          {
+            "word": "longstanding",
+            "ipa": "/ˌlɒŋˈstændɪŋ/",
+            "pos": "adjective",
+            "meaningJa": "長年にわたる、以前から存在している（未解決の問題・謎などに使う）",
+            "exampleEn": "The findings resolve a longstanding mystery surrounding the disproportionate number of children buried at Ust-Ida.",
+            "exampleJa": "この発見は、ウスト＝イダに埋葬された子供の数が不釣り合いに多いという長年の謎を解明した。",
+            "noteJa": "\"long-standing\" と表記されることもある。\"unresolved\" や \"entrenched\" と組み合わせてジャーナリズムで慣用的に使われる複合形容詞。"
+          },
+          {
+            "word": "disproportionate",
+            "ipa": "/ˌdɪsprəˈpɔːʃənət/",
+            "pos": "adjective",
+            "meaningJa": "（他と比べて）不釣り合いな、過度に大きい・小さい",
+            "exampleEn": "The findings resolve a longstanding mystery surrounding the disproportionate number of children buried at the site.",
+            "exampleJa": "その発見は、遺跡に埋葬された子供の不釣り合いに多い数にまつわる長年の謎を解明した。",
+            "noteJa": "単なる \"unequal\" より意味が精密で、「期待・基準値と比べて著しくずれている」というニュアンスを持つ。政治・社会報道で多用される。"
+          }
+        ],
+        "grammar": {
+          "title": "仮定・推量を示す may have + 過去分詞",
+          "pattern": "may have + past participle",
+          "explanationJa": "過去の出来事に対する推量や可能性を表す。「〜したかもしれない／〜であった可能性がある」という意味。C1レベルでは、単純な推測だけでなく、証拠が不確かな状況での慎重な主張（epistemic modality）を示す際に学術文・報道文で頻繁に使われる。",
+          "fromArticle": "older hunter-gatherers might have survived past brushes with the disease and gained some immunity",
+          "examplesEn": [
+            "Older individuals may have acquired partial immunity through previous exposure to the bacterium.",
+            "The outbreak may have begun even earlier than the DNA evidence currently suggests."
+          ],
+          "noteJa": "\"might have\" より \"may have\" の方がやや可能性が高いことを示すが、両者ともフォーマルな文脈で互換的に使われることが多い。記事中では \"might have\" が使われており、より控えめな推量のニュアンスを出している点に注目。"
+        }
+      },
+      {
+        "topic": "culture",
+        "article": {
+          "headline": "10 museums to visit for America’s 250th anniversary",
+          "source": "The Guardian",
+          "when": "2026-06-19",
+          "url": "https://www.theguardian.com/culture/2026/jun/19/10-museums-to-visit-america-250",
+          "summaryJa": "",
+          "paragraphs": [
+            "As the United States marks its semiquincentennial on 4 July, museums nationwide are grappling with what American identity truly entails. Cultural institutions are drawing on artifacts, imagery, and artwork spanning centuries to interrogate the nation's complex 250-year history, placing artists from vastly different backgrounds in conversation to explore what this milestone means for the country's future.",
+            "One notable exhibit, curated by Dr Phoebe Farris of Powhatan-Pamunkey descent, presents Indigenous life in New Jersey through historical objects and contemporary artwork developed in close consultation with tribal communities. Featuring bilingual interpretation and subsidized tours for underserved schools, the exhibit strives to make Indigenous history genuinely accessible rather than merely ornamental."
+          ]
+        },
+        "vocabulary": [
+          {
+            "word": "grappling with",
+            "ipa": "/ˈɡræp.lɪŋ wɪð/",
+            "pos": "動詞句（句動詞）",
+            "meaningJa": "難しい問題や複雑な事柄に真剣に取り組む、格闘する",
+            "exampleEn": "Museums nationwide are grappling with what American identity truly entails.",
+            "exampleJa": "全国の博物館が、アメリカのアイデンティティとは何かという問題に真剣に向き合っている。",
+            "noteJa": "単なる「取り組む」より格闘的なニュアンスが強く、質の高いジャーナリズムで頻出。"
+          },
+          {
+            "word": "interrogate",
+            "ipa": "/ɪnˈter.ə.ɡeɪt/",
+            "pos": "動詞",
+            "meaningJa": "（概念や歴史などを）批判的・分析的に検証する、問い直す",
+            "exampleEn": "Cultural institutions are drawing on artifacts to interrogate the nation's complex history.",
+            "exampleJa": "文化施設が遺物を活用して、この国の複雑な歴史を批判的に問い直している。",
+            "noteJa": "「尋問する」という基本義から転じ、学術・ジャーナリズムでは「批判的に検証する」の意で使われる高度な用法。"
+          },
+          {
+            "word": "ornamental",
+            "ipa": "/ˌɔː.nəˈmen.təl/",
+            "pos": "形容詞",
+            "meaningJa": "装飾的な、実質を伴わず見せかけだけの",
+            "exampleEn": "The exhibit strives to make Indigenous history genuinely accessible rather than merely ornamental.",
+            "exampleJa": "その展示は先住民の歴史を、単なる飾りにとどめず、真に誰もが理解できるものにしようとしている。",
+            "noteJa": "ここでは「表面的・形式的な存在」という批判的含意で使われており、社会論評で重要なニュアンスを持つ語。"
+          }
+        ],
+        "grammar": {
+          "title": "rather than を使った対比構文",
+          "pattern": "V + rather than + [adjective / V-ing / noun phrase]",
+          "explanationJa": "「rather than」は二つの選択肢を対比し、「～ではなく、むしろ～」という意味を表す。C1レベルでは、単純な比較を超えて批判的・評価的なニュアンスを加える際に多用される。",
+          "fromArticle": "The exhibit strives to make Indigenous history genuinely accessible rather than merely ornamental.",
+          "examplesEn": [
+            "The policy aims to empower communities rather than imposing top-down solutions.",
+            "She sought to understand the data rather than simply accepting the conclusions."
+          ],
+          "noteJa": "「rather than」の後には動名詞・形容詞・名詞句など様々な形が続く。前後の並列構造を揃えることが自然な英語の条件。ジャーナリズムや論説文で批判的対比を示す際に特に有効。"
+        }
+      }
+    ]
+  }
+}
