@@ -2,7 +2,7 @@
    - アプリ本体・アイコンはキャッシュ優先（オフラインでも起動）
    - lessons.json はネットワーク優先（毎日の更新を反映、失敗時はキャッシュ）
    キャッシュを作り直したいときは CACHE のバージョンを上げる。 */
-var CACHE = "thedesk-v2";
+var CACHE = "thedesk-v3";
 var CORE = [
   "./",
   "./index.html",
