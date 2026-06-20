@@ -1008,9 +1008,11 @@ function fbInit(){
   try{
     firebase.initializeApp(FIREBASE_CONFIG);
     fbAuth=firebase.auth(); fbDb=firebase.firestore(); FB_READY=true;
+    // セッションを端末ローカルに永続化（standaloneでリダイレクト後も保持されるように）
+    try{ fbAuth.setPersistence(firebase.auth.Auth.Persistence.LOCAL); }catch(e){}
     fbAuth.onAuthStateChanged(function(u){ fbUser=u; renderAccount(); if(u) cloudSyncOnLogin(); });
-    // リダイレクト方式でログインした場合の戻りを処理（エラーは握りつぶす）
-    fbAuth.getRedirectResult().catch(function(){});
+    // リダイレクト方式でログインした場合の戻りを処理
+    fbAuth.getRedirectResult().then(function(r){ if(r && r.user){ fbUser=r.user; renderAccount(); cloudSyncOnLogin(); } }).catch(function(){});
   }catch(e){ FB_READY=false; }
   renderAccount();
 }
@@ -1023,22 +1025,15 @@ function isStandalone(){
 function fbLogin(){
   if(!FB_READY) return;
   var provider=new firebase.auth.GoogleAuthProvider();
-  // ホーム画面アプリ（standalone）はポップアップが戻らないことがあるので最初からリダイレクト
-  if(isStandalone()){
-    fbAuth.signInWithRedirect(provider).catch(function(){ toast("ログインに失敗しました"); });
-    return;
-  }
+  provider.setCustomParameters({ prompt:"select_account" });
+  // まずポップアップ方式を試す（ストレージ分離の影響でリダイレクトより安定）。
+  // 失敗した場合や standalone ではリダイレクト方式へフォールバック。
   fbAuth.signInWithPopup(provider).catch(function(err){
     var code=err && err.code ? err.code : "";
-    var useRedirect=["auth/popup-blocked","auth/operation-not-supported-in-this-environment","auth/web-storage-unsupported","auth/internal-error"];
-    if(useRedirect.indexOf(code)>=0){
-      // ポップアップが使えない環境では自動でリダイレクト方式に切替
-      fbAuth.signInWithRedirect(provider).catch(function(){ toast("ログインに失敗しました"); });
-    } else if(code==="auth/popup-closed-by-user" || code==="auth/cancelled-popup-request"){
-      /* ユーザーが閉じた／連打：何もしない */
-    } else {
-      toast("ログインに失敗しました");
-    }
+    var cancelled=(code==="auth/popup-closed-by-user" || code==="auth/cancelled-popup-request" || code==="auth/user-cancelled");
+    if(cancelled && !isStandalone()){ return; }
+    // ポップアップ不可・standalone・その他の失敗時はリダイレクトで再試行
+    fbAuth.signInWithRedirect(provider).catch(function(){ toast("ログインに失敗しました"); });
   });
 }
 function fbLogout(){ if(fbAuth) fbAuth.signOut().then(function(){ toast("ログアウトしました"); }); }
