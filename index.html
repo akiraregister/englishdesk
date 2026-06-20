@@ -69,6 +69,20 @@
   .inp:focus{outline:none; border-color:var(--amber-strong);}
   .intro{padding-top:30px;}
   .badge-ic{display:inline-flex; align-items:center; justify-content:center; width:56px; height:56px; border-radius:16px; background:var(--amber); font-size:26px; margin-bottom:18px;}
+  .home-greet{font-family:var(--serif); font-size:22px; color:var(--ink); margin:8px 0 0;}
+  .home-levelrow{display:flex; align-items:center; gap:12px; margin:10px 0 16px; flex-wrap:wrap;}
+  .home-levelrow .redo{font-size:12px; color:var(--accent); background:none; text-decoration:underline;}
+  .todaycard{cursor:pointer;}
+  .today-lab{font-size:11px; color:#a06b0a; letter-spacing:.05em; margin-bottom:5px;}
+  .today-head{font-family:var(--serif); font-size:18px; line-height:1.3; color:var(--ink);}
+  .today-src{font-size:12px; color:var(--muted); margin-top:4px;}
+  .home-stats{display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin:16px 0;}
+  .stat{background:#F1EFE8; border-radius:10px; padding:12px 8px; text-align:center;}
+  .stat .n{font-size:20px; font-weight:700; color:var(--ink);}
+  .stat .l{font-size:11px; color:var(--muted); margin-top:2px;}
+  .home-quick{display:flex; gap:10px;}
+  .quickbtn{flex:1; border:1.5px solid var(--line); background:#fff; border-radius:12px; padding:12px; font-size:13px; font-weight:600; color:#4b5563;}
+  @media (hover:hover){ .quickbtn:hover{border-color:#9aa3b2;} }
   .intro h2{font-family:var(--serif); font-size:24px; margin:0;}
   .intro p{color:#4b5563; margin:12px 0 0;}
   .hint{font-size:12px; color:#9aa3b2; margin-top:16px;}
@@ -79,7 +93,7 @@
   .question{font-family:var(--serif); font-size:21px; line-height:1.5; margin:0 0 22px;}
   .opt{width:100%; text-align:left; display:flex; align-items:center; justify-content:space-between; background:#fff;
     border:2px solid var(--line); border-radius:12px; padding:13px 16px; margin-bottom:12px; transition:border-color .15s;}
-  .opt:hover{border-color:#9aa3b2;}
+  @media (hover:hover){ .opt:hover{border-color:#9aa3b2;} }
   .opt.correct{border-color:var(--ok); background:var(--ok-bg);}
   .opt.wrong{border-color:var(--ng); background:var(--ng-bg);}
   .opt .mk{font-weight:800;} .opt.correct .mk{color:var(--ok);} .opt.wrong .mk{color:var(--ng);}
@@ -417,7 +431,12 @@ var TEST = [
   { q:"His argument was clever, but it ultimately ___ the main issue.", options:["sidestepped","sat down","looked up","turned on"], answer:0, pts:9 },
   { q:"___ harder, she would have passed the exam.", options:["Had she studied","If she studies","She studied","Did she study"], answer:0, pts:9 },
   { q:"The new findings ___ doubt on the long-held theory.", options:["cast","threw","put","made"], answer:0, pts:9 },
-  { q:"Rarely ___ such dedication in a junior employee.", options:["I have seen","have I seen","I saw","did I saw"], answer:1, pts:9 }
+  { q:"Rarely ___ such dedication in a junior employee.", options:["I have seen","have I seen","I saw","did I saw"], answer:1, pts:9 },
+  { q:"He doesn't ___ coffee in the morning.", options:["likes","like","liking","liked"], answer:1, pts:3 },
+  { q:"I'm interested ___ learning Japanese.", options:["in","on","at","for"], answer:0, pts:5 },
+  { q:"We need to ___ a decision before Friday.", options:["do","make","take","get"], answer:1, pts:5 },
+  { q:"She suggested ___ a short break.", options:["to take","taking","take","took"], answer:1, pts:7 },
+  { q:"Not only ___ late, but he also forgot the documents.", options:["he was","was he","he is","did he"], answer:1, pts:9 }
 ];
 var MAX_PTS = TEST.reduce(function(s,t){ return s + t.pts; }, 0);
 
@@ -443,7 +462,7 @@ var UPD_KEY = "thedesk-updated-v1";
 
 var DATA = null;
 var lastView = null;
-var state = { view:"study", screen:"intro", qIndex:0, score:0, points:0, level:null, assess:null, topic:"top", pool:[], poolIndex:0, picked:null };
+var state = { view:"study", screen:"home", qIndex:0, score:0, points:0, level:null, assess:null, topic:"top", pool:[], poolIndex:0, picked:null };
 
 /* ===================== ユーティリティ ===================== */
 function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g, function(c){ return ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" })[c]; }); }
@@ -573,6 +592,38 @@ function tokenize(text, vocabWords){
 }
 
 /* ===================== 画面 ===================== */
+function getAssess(){ try{ return JSON.parse(localStorage.getItem(ASSESS_KEY)); }catch(e){ return null; } }
+function todayIndex(){ var d=new Date(); var start=new Date(d.getFullYear(),0,0); return Math.floor((d-start)/86400000); }
+function statTile(n,label){ return '<div class="stat"><div class="n">'+n+'</div><div class="l">'+esc(label)+'</div></div>'; }
+
+function viewHome(){
+  var assess=getAssess();
+  var name=(fbUser && (fbUser.displayName || (fbUser.email||"").split("@")[0])) || "";
+  var greet = name ? ("おかえりなさい、"+esc(name)+" さん") : "ようこそ、The Desk へ";
+  if(!assess || !assess.content){
+    return '<div class="intro center narrow" style="padding-top:26px"><div class="badge-ic">📰</div>'
+      + '<h2 class="home-greet">'+greet+'</h2>'
+      + '<p class="muted" style="margin-top:12px">20問の診断であなたの英語力を推定し、レベルに合った時事ニュースで単語と文法を学べます。まずは診断から始めましょう。</p>'
+      + '<div style="margin-top:22px"><button class="btn btn-dark" data-action="start">レベル診断を始める →</button></div></div>';
+  }
+  var level=assess.content;
+  var pool=buildPool(level,"top");
+  var pick = pool.length ? pool[ todayIndex()%pool.length ] : null;
+  var pickCard = pick
+    ? '<div class="card todaycard" data-action="openToday"><div class="today-lab">✦ 今日のおすすめ（'+esc(level)+'）</div>'
+      + '<div class="today-head">'+esc(pick.article.headline)+'</div>'
+      + (pick.article.source?'<div class="today-src">'+esc(pick.article.source)+'</div>':"")
+      + '<div class="btn btn-amber btn-full" style="margin-top:12px" data-action="openToday">この記事を読む →</div></div>'
+    : '<div class="card muted center">このレベルの記事がまだありません。診断をやり直すか、別レベルをお試しください。</div>';
+  var stats='<div class="home-stats">'+statTile(loadHistory().length,"履歴")+statTile(completedCount(),"完了")+statTile(loadWords().length,"マイ単語")+'</div>';
+  var quick='<div class="home-quick"><button class="quickbtn" data-action="navMyWordsTest">🧠 記憶テスト</button>'
+    + '<button class="quickbtn" data-action="continueRead">📖 続きを読む</button></div>';
+  return '<div style="padding-top:8px"><div class="home-greet">'+greet+'</div>'
+    + '<div class="home-levelrow"><span class="levelpill"><span class="gc">🎓</span>推定レベル '+esc(assess.cefr)+'</span>'
+    + '<button class="redo" data-action="start">診断をやり直す</button></div>'
+    + pickCard + stats + quick + '</div>';
+}
+
 function viewIntro(){
   var saved=null; try{ saved=JSON.parse(localStorage.getItem(ASSESS_KEY)); }catch(e){}
   var resume="";
@@ -818,6 +869,7 @@ function render(){
   if(state.view==="mywords") html=viewMyWords();
   else if(state.view==="memtest") html=viewMemTest();
   else if(state.view==="history") html=viewHistory();
+  else if(state.screen==="home") html=viewHome();
   else if(state.screen==="intro") html=viewIntro();
   else if(state.screen==="test") html=viewTest();
   else if(state.screen==="result") html=viewResult();
@@ -880,7 +932,22 @@ document.body.addEventListener("click", function(e){
   else if(a==="complete"){ var L=state.pool[state.poolIndex]; var nd=toggleCompleted(L, state.level); toast(nd?"完了しました 🎉":"完了を取り消しました"); render(); }
   else if(a==="restart"){ state.view="study"; state.screen="result"; render(); }
   else if(a==="speak"){ speak(btn.dataset.text); }
-  else if(a==="navStudy"){ state.view="study"; render(); }
+  else if(a==="navStudy"){ state.view="study"; state.screen="home"; render(); }
+  else if(a==="openToday"){
+    var lv=(getAssess()&&getAssess().content)||state.level||"B1";
+    var p=buildPool(lv,"top"); if(!p.length){ toast("このレベルの記事がありません"); return; }
+    state.level=lv; state.topic="top"; state.pool=p; state.poolIndex=todayIndex()%p.length; showCurrentLesson();
+  }
+  else if(a==="continueRead"){
+    var hist=loadHistory();
+    if(hist.length){ var e=hist[0]; state.level=e.level; state.pool=[e.lesson]; state.poolIndex=0; showCurrentLesson(); }
+    else {
+      var lv2=(getAssess()&&getAssess().content)||state.level||"B1";
+      var p2=buildPool(lv2,"top"); if(!p2.length){ toast("記事がありません"); return; }
+      state.level=lv2; state.topic="top"; state.pool=p2; state.poolIndex=todayIndex()%p2.length; showCurrentLesson();
+    }
+  }
+  else if(a==="navMyWordsTest"){ state.view="mywords"; render(); }
   else if(a==="navMyWords"){ state.view="mywords"; render(); }
   else if(a==="navHistory"){ state.view="history"; render(); }
   else if(a==="memEn2Ja"){ startMemTest("en2ja"); }
