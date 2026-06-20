@@ -84,8 +84,9 @@ async function makeLesson(article, level) {
     `(2) Pick EXACTLY 3 vocabulary words that ACTUALLY APPEAR in your two paragraphs and that are the MOST WORTH LEARNING at this level — i.e. near the upper edge of ${level}, NOT the easiest words in the text. VOCAB RULE: ${VOCAB_RULES[level]} ` +
     `(3) Pick ONE grammar point that appears in the article and suits level ${level}. ` +
     `All meanings, explanations and notes must be in Japanese; English examples stay in English; keep every Japanese field concise. ` +
+    `Also write "explanationJa": a 2-3 sentence Japanese explanation (解説) of the article's content and significance, helping a Japanese learner grasp what it is about (this is fuller than the one-line summaryJa). ` +
     `Respond with ONLY a raw JSON object (no markdown). Schema:\n` +
-    `{"summaryJa":"","paragraphs":["",""],` +
+    `{"summaryJa":"","explanationJa":"","paragraphs":["",""],` +
     `"vocabulary":[{"word":"","ipa":"","pos":"","meaningJa":"","exampleEn":"","exampleJa":"","noteJa":""}],` +
     `"grammar":{"title":"","pattern":"","explanationJa":"","fromArticle":"","examplesEn":["",""],"noteJa":""}}`;
 
@@ -126,6 +127,7 @@ async function makeLesson(article, level) {
       when: article.when,
       url: article.url,
       summaryJa: parsed.summaryJa,
+      explanationJa: parsed.explanationJa,
       paragraphs: parsed.paragraphs,
     },
     vocabulary: parsed.vocabulary,
