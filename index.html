@@ -19,6 +19,9 @@
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<!-- Firebaseの鍵は firebase-config.js に1回だけ置く（index.html を更新しても消えない）。
+     無ければ自動でローカル保存のみ。 -->
+<script src="firebase-config.js"></script>
 
 <style>
   :root{
@@ -216,8 +219,10 @@
 <div id="wordpop" class="wordpop"></div>
 
 <script>
-/* ============ Firebase 設定（HSKアプリのものを貼り付け。未設定ならローカルのみ） ============ */
-var FIREBASE_CONFIG = {
+/* ============ Firebase 設定 ============
+   鍵は外部ファイル firebase-config.js（window.FIREBASE_CONFIG）に置く。
+   そこで設定されていればそれを使い、無ければ下のプレースホルダ＝ローカル保存のみ。 */
+var FIREBASE_CONFIG = (typeof window !== "undefined" && window.FIREBASE_CONFIG) || {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_PROJECT.firebaseapp.com",
   projectId: "YOUR_PROJECT_ID",
