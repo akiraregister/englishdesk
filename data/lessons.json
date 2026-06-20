@@ -1,182 +1,19 @@
 {
-  "generatedAt": "2026-06-19T22:11:34.621Z",
+  "generatedAt": "2026-06-20T08:12:07.389Z",
   "lessons": {
     "A2": [
       {
         "topic": "world",
         "article": {
-          "headline": "The real reason a hantavirus disaster was averted | Letters",
+          "headline": "Israel and Hezbollah renew ceasefire after deadly flareup disrupts opening of Iran talks",
           "source": "The Guardian",
-          "when": "2026-06-19",
-          "url": "https://www.theguardian.com/world/2026/jun/19/the-real-reason-a-hantavirus-disaster-was-averted",
-          "summaryJa": "",
+          "when": "2026-06-20",
+          "url": "https://www.theguardian.com/world/2026/jun/19/israel-hezbollah-renew-ceasefire-lebanon-us-iran-agreement",
+          "summaryJa": "イスラエルとヒズボラが戦闘を再開し、その後また停戦に合意した。この出来事は、米国とイランの重要な核協議を中止させた。",
+          "explanationJa": "イスラエルとレバノンのヒズボラは停戦中に戦闘を再開した。ヒズボラはイスラエル兵士4人を殺し、イスラエルはレバノンに空爆を行い、少なくとも47人が死亡した。この暴力により、スイスで予定されていた米国とイランの核交渉が中止になった。この交渉は、イランの核開発計画について話し合う重要な機会だったため、中止は国際社会に大きな影響を与えた。",
           "paragraphs": [
-            "A ship called the MV Hondius had sick passengers. A doctor on Ascension Island saw many sick people. The doctor used new equipment to check the cause. The doctor found something unusual and called other doctors.",
-            "Doctors in different countries talked together. They found the passengers had hantavirus. They told the World Health Organization about this. This stopped the virus from spreading to more countries."
-          ]
-        },
-        "vocabulary": [
-          {
-            "word": "passenger",
-            "ipa": "/ˈpæs.ɪn.dʒər/",
-            "pos": "noun",
-            "meaningJa": "乗客（船・飛行機・バスなどに乗る人）",
-            "exampleEn": "A sick passenger came off the ship.",
-            "exampleJa": "病気の乗客が船から降りた。",
-            "noteJa": "「pass（通過する）」から来た語。旅行の話でよく使う。"
-          },
-          {
-            "word": "equipment",
-            "ipa": "/ɪˈkwɪp.mənt/",
-            "pos": "noun",
-            "meaningJa": "機器・道具・設備（仕事や作業に使う物）",
-            "exampleEn": "The doctor used new equipment to check the cause.",
-            "exampleJa": "医師は原因を調べるために新しい機器を使った。",
-            "noteJa": "数えられない名詞なので「an equipment」とは言わない。"
-          },
-          {
-            "word": "spread",
-            "ipa": "/sprɛd/",
-            "pos": "verb",
-            "meaningJa": "広がる・広める（病気や情報などが広くなること）",
-            "exampleEn": "They stopped the virus from spreading to more countries.",
-            "exampleJa": "彼らはウイルスがさらに多くの国に広がるのを止めた。",
-            "noteJa": "過去形・過去分詞も「spread」と同じ形（不規則動詞）。"
-          }
-        ],
-        "grammar": {
-          "title": "fromを使った動名詞：stop ... from -ing",
-          "pattern": "stop + [人/物] + from + 動詞-ing",
-          "explanationJa": "「〜が…するのを止める」という意味を表す表現。fromの後ろには動詞のing形を置く。",
-          "fromArticle": "This stopped the virus from spreading to more countries.",
-          "examplesEn": [
-            "He stopped the dog from running away.",
-            "The medicine stopped the fever from getting worse."
-          ],
-          "noteJa": "「prevent ... from -ing」も同じ意味でよく使われる。A2レベルでは「stop」の形から覚えよう。"
-        }
-      },
-      {
-        "topic": "business",
-        "article": {
-          "headline": "UK borrows more than expected as impact of Iran war takes toll",
-          "source": "The Guardian",
-          "when": "2026-06-19",
-          "url": "https://www.theguardian.com/business/2026/jun/19/uk-borrows-more-than-expected-as-impact-of-iran-war-takes-toll",
-          "summaryJa": "",
-          "paragraphs": [
-            "The UK government spent more money than it received in May. It borrowed £23.3 billion. This amount was higher than experts expected. The Iran war made this problem worse. Debt interest costs went up because of the conflict.",
-            "Andy Burnham won a byelection in May. He may become the next Labour leader. If he wins, he will face big money problems. The government borrowed nearly £9 billion more than last year. This is a very difficult situation."
-          ]
-        },
-        "vocabulary": [
-          {
-            "word": "borrowed",
-            "ipa": "/ˈbɒrəʊd/",
-            "pos": "verb (past simple)",
-            "meaningJa": "お金を借りた",
-            "exampleEn": "The government borrowed more money this year.",
-            "exampleJa": "政府は今年、より多くのお金を借りた。",
-            "noteJa": "「borrow」は人やお金を一時的に借りるときに使う動詞。「lend（貸す）」と混同しないように注意。"
-          },
-          {
-            "word": "conflict",
-            "ipa": "/ˈkɒnflɪkt/",
-            "pos": "noun",
-            "meaningJa": "争い、戦争",
-            "exampleEn": "The conflict made prices go up.",
-            "exampleJa": "その争いが物価を上昇させた。",
-            "noteJa": "「war（戦争）」より少しフォーマルな言い方。ニュースでよく登場する重要語。"
-          },
-          {
-            "word": "received",
-            "ipa": "/rɪˈsiːvd/",
-            "pos": "verb (past simple)",
-            "meaningJa": "受け取った",
-            "exampleEn": "The government received less money than it spent.",
-            "exampleJa": "政府は使った金額より少ししか受け取らなかった。",
-            "noteJa": "「get」より少しフォーマル。税金や給料など、公式な場面でよく使われる。"
-          }
-        ],
-        "grammar": {
-          "title": "比較級：more than（～より多く）",
-          "pattern": "more + [noun/adjective] + than ~",
-          "explanationJa": "2つのものを比べるときに使う表現。「more than expected」は「予想より多く」という意味で、ニュースで非常によく使われる。",
-          "fromArticle": "The UK borrowed more money than it received in May.",
-          "examplesEn": [
-            "She spent more money than her friend.",
-            "He borrowed more books than he needed."
-          ],
-          "noteJa": "「more than」のあとに数字を置くと「～以上」という意味にもなる（例：more than 10 billion）。日常会話でも頻出の重要表現。"
-        }
-      },
-      {
-        "topic": "culture",
-        "article": {
-          "headline": "Jennifer Siebel Newsom’s new film shines a light on the human cost of unregulated social media",
-          "source": "The Guardian",
-          "when": "2026-06-19",
-          "url": "https://www.theguardian.com/culture/2026/jun/19/jennifer-siebel-newsom-documentary-miss-representation-rise-up",
-          "summaryJa": "",
-          "paragraphs": [
-            "Jennifer Siebel Newsom made a new film. The film is about social media and people's mental health. She thinks social media can hurt people. Her husband is Gavin Newsom. He is the governor of California.",
-            "Jennifer also made a documentary in 2011. The title was Miss Representation. It showed problems for women in the media. She started her own production company. She wants to tell women's stories."
-          ]
-        },
-        "vocabulary": [
-          {
-            "word": "documentary",
-            "ipa": "/ˌdɒk.jʊˈmen.tər.i/",
-            "pos": "noun",
-            "meaningJa": "ドキュメンタリー（実際の出来事や人々について作られた映画やテレビ番組）",
-            "exampleEn": "She made a documentary in 2011.",
-            "exampleJa": "彼女は2011年にドキュメンタリーを制作した。",
-            "noteJa": "ニュースや映画の話題でよく出てくる重要な単語。"
-          },
-          {
-            "word": "mental health",
-            "ipa": "/ˈmen.təl helθ/",
-            "pos": "noun phrase",
-            "meaningJa": "メンタルヘルス・心の健康",
-            "exampleEn": "Social media can hurt people's mental health.",
-            "exampleJa": "SNSは人々のメンタルヘルスを傷つけることがある。",
-            "noteJa": "現代社会でとても重要なテーマ。ニュースで頻繁に使われる。"
-          },
-          {
-            "word": "governor",
-            "ipa": "/ˈɡʌv.ən.ər/",
-            "pos": "noun",
-            "meaningJa": "知事（アメリカの州のリーダー）",
-            "exampleEn": "Her husband is the governor of California.",
-            "exampleJa": "彼女の夫はカリフォルニア州の知事だ。",
-            "noteJa": "アメリカの政治ニュースでよく登場する役職名。"
-          }
-        ],
-        "grammar": {
-          "title": "can を使った可能性・影響の表現",
-          "pattern": "Subject + can + verb",
-          "explanationJa": "「can」は能力（～できる）だけでなく、「～することがある」という一般的な可能性や影響を表すときにも使う。",
-          "fromArticle": "Social media can hurt people.",
-          "examplesEn": [
-            "Social media can hurt people's mental health.",
-            "Films can show important problems."
-          ],
-          "noteJa": "A2レベルで覚えておきたい「can」の使い方。「いつもそうなる」ではなく「そういうことが起こりうる」というニュアンス。"
-        }
-      }
-    ],
-    "B1": [
-      {
-        "topic": "world",
-        "article": {
-          "headline": "‘You just gotta calm down’: Trump says he told Israel to agree ceasefire with Hezbollah – as it happened",
-          "source": "The Guardian",
-          "when": "2026-06-19",
-          "url": "https://www.theguardian.com/world/live/2026/jun/19/middle-east-crisis-live-israel-strikes-targets-in-lebanon-as-us-iran-talks-in-switzerland-called-off",
-          "summaryJa": "",
-          "paragraphs": [
-            "Israel and Hezbollah agreed to renew their ceasefire on Friday. But Israeli attacks in southern Lebanon continued, killing at least 47 people. US President Trump said he spoke with Israel and asked them to agree to the ceasefire. He told them to calm down and use their head.",
-            "The fighting caused talks between the US and Iran in Switzerland to be cancelled suddenly. These talks were important for peace in the region. Lebanon's president said a comprehensive ceasefire is a fundamental pillar for future negotiations. The next round of talks will be held in Washington on 23–25 June."
+            "Israel and Hezbollah had a ceasefire in Lebanon. But on Friday, they fought again. Hezbollah killed four Israeli soldiers. Then Israel attacked southern Lebanon. At least 47 people died in those attacks.",
+            "The US and Iran planned important talks in Switzerland. They wanted to discuss Iran's nuclear programme. But the fighting stopped those talks. The two sides later agreed to a new ceasefire."
           ]
         },
         "vocabulary": [
@@ -185,95 +22,153 @@
             "ipa": "/ˈsiːsfaɪər/",
             "pos": "noun",
             "meaningJa": "停戦（戦闘を一時的に止めること）",
-            "exampleEn": "Israel and Hezbollah agreed to renew their ceasefire on Friday.",
-            "exampleJa": "イスラエルとヒズボラは金曜日に停戦の再開に合意した。",
-            "noteJa": "ニュース英語で非常によく使われる重要な語。cease（止まる）＋fire（発砲）の複合語。"
+            "exampleEn": "Israel and Hezbollah agreed to a new ceasefire.",
+            "exampleJa": "イスラエルとヒズボラは新しい停戦に合意した。",
+            "noteJa": "cease（止める）+ fire（銃撃）の組み合わせ。ニュースで非常によく使われる重要語。"
           },
           {
-            "word": "negotiations",
-            "ipa": "/nɪˌɡəʊʃiˈeɪʃənz/",
-            "pos": "noun (plural)",
-            "meaningJa": "交渉、協議（合意に向けた話し合い）",
-            "exampleEn": "A comprehensive ceasefire is a fundamental pillar for future negotiations.",
-            "exampleJa": "包括的な停戦は今後の交渉にとって基本的な柱だ。",
-            "noteJa": "negotiateという動詞の名詞形。政治・ビジネスニュースで頻出。"
+            "word": "attacked",
+            "ipa": "/əˈtækt/",
+            "pos": "verb (past simple)",
+            "meaningJa": "攻撃した",
+            "exampleEn": "Israel attacked southern Lebanon.",
+            "exampleJa": "イスラエルはレバノン南部を攻撃した。",
+            "noteJa": "attack（攻撃する）の過去形。ニュースや日常会話でよく登場する動詞。"
           },
           {
-            "word": "cancelled",
-            "ipa": "/ˈkænsəld/",
-            "pos": "verb (past tense)",
-            "meaningJa": "（予定などが）中止・キャンセルされた",
-            "exampleEn": "The fighting caused talks between the US and Iran to be cancelled suddenly.",
-            "exampleJa": "戦闘により、米国とイランの会談が突然中止された。",
-            "noteJa": "ここではbe cancelledと受動態で使われている。「突然」を表すsuddenly（abruptly）と一緒に覚えると便利。"
+            "word": "programme",
+            "ipa": "/ˈprəʊɡræm/",
+            "pos": "noun",
+            "meaningJa": "計画、プログラム",
+            "exampleEn": "They wanted to discuss Iran's nuclear programme.",
+            "exampleJa": "彼らはイランの核計画について話し合いたかった。",
+            "noteJa": "英国式のつづり。米国式はprogram。「核計画」のように重要な政治トピックで使われる。"
           }
         ],
         "grammar": {
-          "title": "使役・原因を表す cause + O + to be + 過去分詞（受動態の不定詞）",
-          "pattern": "cause + [名詞] + to be + [過去分詞]",
-          "explanationJa": "「cause A to be done」は「AがされるようにさせるBの原因となる」という意味。主語（原因）が目的語（A）に対して何らかの受動的な結果をもたらすときに使う。",
-          "fromArticle": "The fighting caused talks between the US and Iran in Switzerland to be cancelled suddenly.",
+          "title": "過去形を使った否定文：didn't + 動詞の原形",
+          "pattern": "Subject + didn't + base verb",
+          "explanationJa": "過去に起きなかったことを表すとき、「didn't（did not）＋動詞の原形」を使う。記事では予定されていた会談が行われなかったことを説明するために使われている。A2レベルで必須の文法パターン。",
+          "fromArticle": "The talks didn't happen because of the fighting.",
           "examplesEn": [
-            "The storm caused the flight to be delayed.",
-            "His speech caused the plan to be changed."
+            "The meeting didn't start on time.",
+            "They didn't sign the agreement."
           ],
-          "noteJa": "cause + O + to do（能動）との違いに注意。受動の結果を表すときは to be + 過去分詞になる。ニュース文でよく見られる構文。"
+          "noteJa": "動詞はdidntの後で必ず原形にすること。例えば「didn't went」は間違いで、「didn't go」が正しい。"
         }
       },
       {
-        "topic": "culture",
+        "topic": "world",
         "article": {
-          "headline": "10 museums to visit for America’s 250th anniversary",
+          "headline": "Beyond the beach: Spain pushes offbeat regions as tourist numbers nudge 100m",
           "source": "The Guardian",
-          "when": "2026-06-19",
-          "url": "https://www.theguardian.com/culture/2026/jun/19/10-museums-to-visit-america-250",
-          "summaryJa": "",
+          "when": "2026-06-20",
+          "url": "https://www.theguardian.com/world/2026/jun/20/spain-offbeat-regions-tourist-numbers-overtourism",
+          "summaryJa": "スペインは今年、外国人観光客が初めて1億人に達するかもしれない。政府は有名なビーチだけでなく、他の地域にも観光客を呼びたいと考えている。",
+          "explanationJa": "スペインは毎年多くの外国人観光客が訪れる人気の観光地で、昨年は約9,680万人が訪れた。今年はついに1億人を超える可能性がある。しかし、観光客が一部の地域に集中しすぎる「オーバーツーリズム」が問題になっており、スペイン政府はビーチ以外の地域にも観光客を分散させようとしている。観光業はスペインのGDPの12％以上を占める重要な産業だが、政府は急激な成長よりも「穏やかな成長」を目指している。",
           "paragraphs": [
-            "The United States is turning 250 years old this July. Museums across the country have organised special exhibits to explore American history and culture. They are highlighting artists, artifacts, and stories from many different backgrounds to show what 250 years have meant for the nation.",
-            "One important exhibit is at the Monmouth Museum in New Jersey. It focuses on Indigenous people and their history in the region. Historical objects and contemporary artwork are displayed together. The exhibit also offers subsidized tours for schools, so more people can access this history."
+            "Spain is a very popular country for tourists. Last year, about 97 million foreign visitors came to Spain. This year, the number could reach 100 million. The tourism minister talked about this big number.",
+            "Spain wants tourists to visit different regions, not only beaches. Some places have too many tourists. This is a problem. The government wants slow and careful growth. Tourism is very important for Spain's economy."
           ]
         },
         "vocabulary": [
           {
-            "word": "artifacts",
-            "ipa": "/ˈɑːr.tɪ.fækts/",
-            "pos": "noun (plural)",
-            "meaningJa": "過去の人々が作った歴史的な物品・遺物",
-            "exampleEn": "Museums display artifacts to show how people lived in the past.",
-            "exampleJa": "博物館は過去の人々の生活を示すために遺物を展示する。",
-            "noteJa": "「人工物」という意味もあるが、歴史・文化の文脈では「遺物・工芸品」を指すことが多い。"
+            "word": "region",
+            "ipa": "/ˈriːdʒən/",
+            "pos": "noun",
+            "meaningJa": "地域、地方",
+            "exampleEn": "Spain wants tourists to visit different regions.",
+            "exampleJa": "スペインは観光客に異なる地域を訪れてほしいと思っている。",
+            "noteJa": "countryより小さい地理的なまとまりを指す。旅行や地理の話題でよく使う重要語。"
           },
           {
-            "word": "contemporary",
-            "ipa": "/kənˈtem.pə.rer.i/",
-            "pos": "adjective",
-            "meaningJa": "現代の、現在と同じ時代の",
-            "exampleEn": "The exhibit shows both historical and contemporary artwork.",
-            "exampleJa": "その展示は歴史的な作品と現代の作品の両方を展示している。",
-            "noteJa": "「同時代の」という意味もある。'modern' より少しフォーマルな語。"
+            "word": "economy",
+            "ipa": "/ɪˈkɒnəmi/",
+            "pos": "noun",
+            "meaningJa": "経済",
+            "exampleEn": "Tourism is very important for Spain's economy.",
+            "exampleJa": "観光業はスペインの経済にとってとても重要だ。",
+            "noteJa": "ニュースや社会の話題で頻繁に登場する語。A2レベルで覚えておきたい重要語。"
           },
           {
-            "word": "subsidized",
-            "ipa": "/ˈsʌb.sɪ.daɪzd/",
-            "pos": "adjective",
-            "meaningJa": "補助金によって費用が一部負担された、割引された",
-            "exampleEn": "The museum offers subsidized tours for schools that have limited money.",
-            "exampleJa": "博物館は予算が限られている学校向けに費用補助付きのツアーを提供している。",
-            "noteJa": "動詞 'subsidize'（補助金を出す）の過去分詞形。公共サービスや教育の文脈でよく使われる。"
+            "word": "visitor",
+            "ipa": "/ˈvɪzɪtər/",
+            "pos": "noun",
+            "meaningJa": "訪問者、観光客",
+            "exampleEn": "About 97 million foreign visitors came to Spain.",
+            "exampleJa": "約9,700万人の外国人訪問者がスペインを訪れた。",
+            "noteJa": "「tourist（観光客）」と似た意味だが、より広い場面で使える語。visit（動詞）との関係も覚えよう。"
           }
         ],
         "grammar": {
-          "title": "現在完了形（have + 過去分詞）：完了・結果を表す",
-          "pattern": "Subject + have/has + past participle",
-          "explanationJa": "現在完了形は「過去に行われた動作が現在に影響を与えている」ことを表す。日本語の「〜した（結果、今こうなっている）」に近い。",
-          "fromArticle": "Museums across the country have organised special exhibits to explore American history.",
+          "title": "助動詞 could を使った可能性の表現",
+          "pattern": "Subject + could + verb (base form)",
+          "explanationJa": "「could」は過去形だけでなく、現在や未来の「～かもしれない」という可能性を表すときにも使う。「can」より確信の度合いが低く、「もしかしたら～」というニュアンスになる。A2レベルでニュースや日常会話でよく登場するので覚えておこう。",
+          "fromArticle": "This year, the number could reach 100 million.",
           "examplesEn": [
-            "The Guardian has assembled a list of exhibits at museums across the nation.",
-            "Museums have highlighted artists and artifacts from many different backgrounds."
+            "The weather could be cold tomorrow.",
+            "She could arrive late tonight."
           ],
-          "noteJa": "過去形（organised）との違いに注意。過去形は「いつ」起きたかに焦点があるが、現在完了形は「今の状態・結果」に焦点がある。"
+          "noteJa": "「could」のあとには必ず動詞の原形を置く。「might」も同じ意味で使えることも覚えておくと便利。"
         }
       },
+      {
+        "topic": "business",
+        "article": {
+          "headline": "Another FTSE 100 firm falls to private equity. Where are the new listings? | Nils Pratley",
+          "source": "The Guardian",
+          "when": "2026-06-18",
+          "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/18/another-ftse-100-firm-falls-private-equity-where-new-listings",
+          "summaryJa": "インターテックはロンドン株式市場に上場する大きな会社です。スウェーデンの会社EQTがインターテックを約100億ポンドで買いました。インターテックは製品のテストと検査をします。会社のリーダーたちは4番目のオファーを受け入れました。株主たちはお金をもらいました。これはロンドン市場にとって良いニュースではありません。",
+          "explanationJa": "この記事は、ロンドン株式市場（FTSE100）に上場していたインターテックという会社が、スウェーデンのプライベートエクイティ（未公開株投資）会社EQTに約100億ポンドで買収されたことを伝えています。筆者は、このような大企業が次々と株式市場から姿を消すことをロンドン市場にとって残念な傾向だと述べています。新しい会社がロンドンに上場しない一方で、既存の大企業が買収されていく状況が続いています。",
+          "paragraphs": [
+            "Intertek is a big company on the London stock market. It tests and checks products for quality. A group of investors, led by EQT from Sweden, wanted to buy Intertek. They made four offers. The price went from £51.50 to £60 per share.",
+            "Intertek's leaders accepted the last offer. Shareholders got cash money. This news was not a surprise to many people. Analysts predicted this price from the start. London's stock market lost another large company. This is not good for the market."
+          ]
+        },
+        "vocabulary": [
+          {
+            "word": "offer",
+            "ipa": "/ˈɒfər/",
+            "pos": "noun",
+            "meaningJa": "申し出・提示価格（買収などで提示する金額や提案）",
+            "exampleEn": "They made four offers to buy the company.",
+            "exampleJa": "彼らは会社を買うために4回オファーをしました。",
+            "noteJa": "ビジネスや日常でよく使う重要な単語。動詞としても使える（offer help など）。"
+          },
+          {
+            "word": "accepted",
+            "ipa": "/əkˈsɛptɪd/",
+            "pos": "verb (past simple)",
+            "meaningJa": "受け入れた・承諾した",
+            "exampleEn": "Intertek's leaders accepted the last offer.",
+            "exampleJa": "インターテックのリーダーたちは最後のオファーを受け入れました。",
+            "noteJa": "accept（受け入れる）の過去形。反対語は refuse（断る）。"
+          },
+          {
+            "word": "predicted",
+            "ipa": "/prɪˈdɪktɪd/",
+            "pos": "verb (past simple)",
+            "meaningJa": "予測した・予言した",
+            "exampleEn": "Analysts predicted this price from the start.",
+            "exampleJa": "アナリストたちは最初からこの価格を予測していました。",
+            "noteJa": "predict（予測する）の過去形。天気予報や将来の出来事について使う実用的な動詞。"
+          }
+        ],
+        "grammar": {
+          "title": "過去形（Past Simple）で出来事を伝える",
+          "pattern": "主語 + 動詞の過去形 + 目的語/補語",
+          "explanationJa": "過去に起きた出来事や完了した行動を伝えるときに過去形を使います。規則動詞は語尾に -ed をつけます（accept → accepted, predict → predicted）。不規則動詞は形が変わります（go → went など）。ニュース記事では過去形がとても多く使われます。",
+          "fromArticle": "Intertek's leaders accepted the last offer.",
+          "examplesEn": [
+            "They made four offers to buy the company.",
+            "Analysts predicted this price from the start."
+          ],
+          "noteJa": "make → made のように不規則に変化する動詞も多いので、よく使うものは覚えておきましょう。"
+        }
+      }
+    ],
+    "B1": [
       {
         "topic": "science",
         "article": {
@@ -281,109 +176,111 @@
           "source": "The Guardian",
           "when": "2026-06-19",
           "url": "https://www.theguardian.com/science/2026/jun/19/pointless-words-that-litter-our-language-are-like-so-unnecessary",
-          "summaryJa": "",
+          "summaryJa": "英語の「like」や「so」などの無意味な言葉の使い過ぎについて、読者が意見を述べています。",
+          "explanationJa": "この記事は、イギリスの新聞に寄せられた読者の手紙です。二人の読者が、現代英語で増えている不必要な言葉の使い方に不満を感じています。たとえば、文の最初に「so」を強調して使ったり、「like」を会話に何度も入れたりすることです。このような言語の変化は長い歴史の中でよく起こりますが、気になる人も多いということが分かります。",
           "paragraphs": [
-            "Many people are annoyed by unnecessary words in everyday speech. Words like 'like' and 'so' appear too often. One writer noticed a student who used 'so' constantly at the start of sentences. After spending time together, the student stopped using it. This shows that people can change their habits with a little encouragement.",
-            "Another writer dislikes words such as 'multiple' instead of 'many', and 'super' instead of 'very'. He also finds the expression 'I was sat' strange and incorrect. He admits he may be an old-fashioned person who finds it hard to accept language changes. He thinks these fashions may disappear over time, just like old trends did before."
+            "Many people are annoyed by pointless words in everyday speech. Words like 'like' and 'so' appear very often in conversation. Some speakers use 'so' with heavy emphasis at the start of a sentence. This can make a simple answer sound more important than it really is.",
+            "Other language changes also bother some listeners. For example, people now say 'multiple' instead of 'many', or 'super' instead of 'very'. One writer, aged 80, admits he finds it difficult to tolerate these changing fashions. He thinks these habits may disappear in time, just as old expressions did in the past."
           ]
         },
         "vocabulary": [
           {
-            "word": "annoyed",
-            "ipa": "/əˈnɔɪd/",
-            "pos": "adjective",
-            "meaningJa": "イライラした、腹を立てた",
-            "exampleEn": "Many people are annoyed by unnecessary words in everyday speech.",
-            "exampleJa": "多くの人が日常会話の中の不要な言葉にイライラしている。",
-            "noteJa": "動詞 annoy（〜をイライラさせる）の形容詞形。be annoyed by〜で「〜にイライラする」という意味になる。"
+            "word": "emphasis",
+            "ipa": "/ˈemfəsɪs/",
+            "pos": "noun",
+            "meaningJa": "強調、力点",
+            "exampleEn": "She spoke 'so' with heavy emphasis at the start of her answer.",
+            "exampleJa": "彼女は答えの最初に「so」を強く強調して言った。",
+            "noteJa": "スピーチやライティングで「特に強く伝えること」を表す重要な語。動詞形は emphasize。"
           },
           {
-            "word": "constantly",
-            "ipa": "/ˈkɒnstəntli/",
-            "pos": "adverb",
-            "meaningJa": "絶えず、いつも",
-            "exampleEn": "He noticed a student who used 'so' constantly at the start of sentences.",
-            "exampleJa": "彼は文の最初に「so」を絶えず使う学生に気づいた。",
-            "noteJa": "always より少し硬い表現。「止まることなく繰り返す」というニュアンスがある。"
-          },
-          {
-            "word": "accept",
-            "ipa": "/əkˈsept/",
+            "word": "tolerate",
+            "ipa": "/ˈtɒləreɪt/",
             "pos": "verb",
-            "meaningJa": "〜を受け入れる、認める",
-            "exampleEn": "He finds it hard to accept language changes.",
-            "exampleJa": "彼は言語の変化を受け入れることが難しいと感じている。",
-            "noteJa": "find it hard to accept〜は「〜を受け入れるのが難しいと感じる」という便利な表現。"
+            "meaningJa": "〜を我慢する、受け入れる",
+            "exampleEn": "He finds it difficult to tolerate the changing fashions in language.",
+            "exampleJa": "彼は言語の流行の変化を我慢するのが難しいと感じている。",
+            "noteJa": "「受け入れたくないが、なんとか耐える」というニュアンス。名詞形は tolerance。"
+          },
+          {
+            "word": "pointless",
+            "ipa": "/ˈpɔɪntləs/",
+            "pos": "adjective",
+            "meaningJa": "無意味な、目的のない",
+            "exampleEn": "Many people are annoyed by pointless words in everyday speech.",
+            "exampleJa": "多くの人が日常会話の中の無意味な言葉にイライラしている。",
+            "noteJa": "「point（目的・意味）」＋「-less（〜がない）」という構造で覚えやすい。"
           }
         ],
         "grammar": {
           "title": "find it + 形容詞 + to不定詞",
           "pattern": "find it [adjective] to [verb]",
-          "explanationJa": "「〜することが…だと感じる／わかる」という意味を表す構文。it は形式目的語で、実際の内容はto以下。",
+          "explanationJa": "「〜することが…だとわかる／感じる」という意味を表す構文です。itは形式目的語で、実際の内容はto不定詞の部分です。B1レベルで非常によく使われる便利な表現です。",
           "fromArticle": "He finds it difficult to tolerate the changing fashions in language.",
           "examplesEn": [
-            "I find it hard to understand fast English.",
-            "She finds it easy to make new friends."
+            "I find it hard to understand fast speech.",
+            "She finds it easy to learn new vocabulary."
           ],
-          "noteJa": "it の代わりに具体的な名詞や動名詞を置くことはできないため、必ず形式目的語 it を使う点に注意。"
+          "noteJa": "itを省略して「find difficult to…」とは言えない点に注意。必ずitを入れる形で使いましょう。"
         }
-      }
-    ],
-    "B2": [
+      },
       {
-        "topic": "world",
+        "topic": "culture",
         "article": {
-          "headline": "Israel and Hezbollah agree to renew ceasefire after flareup of violence",
+          "headline": "Post your questions for Vini Reilly of the Durutti Column",
           "source": "The Guardian",
           "when": "2026-06-19",
-          "url": "https://www.theguardian.com/world/2026/jun/19/israel-hezbollah-renew-ceasefire-lebanon-us-iran-agreement",
-          "summaryJa": "",
+          "url": "https://www.theguardian.com/culture/2026/jun/19/post-your-questions-for-the-durutti-column-vini-reilly",
+          "summaryJa": "イギリスのバンド、デュルッティ・コラムが16年ぶりに新しい音楽を発表します。",
+          "explanationJa": "デュルッティ・コラムは1978年から活動するイギリスのバンドで、夢のようなギターサウンドで知られています。リーダーのヴィニ・ライリーは脳卒中を経験し、ギターを弾くことを再び学びました。今回16年ぶりとなる新アルバム『Renascent』は、ハリー・スタイルズなど現代のアーティストたちからも影響源として挙げられており、バンドの音楽が今も多くのミュージシャンに影響を与えていることがわかります。",
           "paragraphs": [
-            "Israel and Hezbollah agreed to renew a fragile ceasefire in Lebanon after a sudden flareup of violence. Hezbollah killed four Israeli soldiers, and Israel responded with retaliatory airstrikes in southern Lebanon that killed at least 47 people. The violence threatened a broader agreement between the US and Iran, causing planned talks in Switzerland to be cancelled.",
-            "The US-Iran deal had opened a 60-day window to negotiate a permanent understanding over Iran's nuclear programme. Iran's chief negotiator warned against any breach of the agreement, threatening a decisive response. Uncertainty remains over whether a definitive end to the regional conflict can be reached, as the violence has sent energy prices soaring and threatened global economic stability."
+            "The Durutti Column will release new music for the first time in 16 years. The album is called Renascent. The band has been active since 1978 and is known for dreamy guitar music. Many modern artists, including Harry Styles, have cited them as an influence.",
+            "The band's leader, Vini Reilly, has had a difficult time. He suffered a stroke and had to learn to play guitar again. He also has arthritis now. However, he and the band have made what many people call a beautiful new record."
           ]
         },
         "vocabulary": [
           {
-            "word": "retaliatory",
-            "ipa": "/rɪˈtæliətɔːri/",
-            "pos": "adjective",
-            "meaningJa": "報復的な、仕返しとして行われる",
-            "exampleEn": "Israel responded with retaliatory airstrikes after soldiers were killed.",
-            "exampleJa": "兵士が殺された後、イスラエルは報復的な空爆で応じた。",
-            "noteJa": "動詞 retaliate（報復する）の形容詞形。軍事・外交ニュースで頻出する上級語。"
+            "word": "release",
+            "ipa": "/rɪˈliːs/",
+            "pos": "verb",
+            "meaningJa": "（音楽・映画などを）発売する、公開する",
+            "exampleEn": "The band will release their new album next month.",
+            "exampleJa": "バンドは来月新しいアルバムを発売する予定です。",
+            "noteJa": "音楽や映画の文脈でよく使われる動詞。名詞としても「新作」の意味で使えます（例：a new release）。"
           },
           {
-            "word": "fragile",
-            "ipa": "/ˈfrædʒaɪl/",
-            "pos": "adjective",
-            "meaningJa": "もろい、壊れやすい、不安定な",
-            "exampleEn": "They agreed to renew a fragile ceasefire that could collapse at any moment.",
-            "exampleJa": "いつ崩れてもおかしくない不安定な停戦を更新することで合意した。",
-            "noteJa": "物理的な「壊れやすさ」だけでなく、平和・合意・経済など抽象的な文脈でも広く使われる。"
+            "word": "influence",
+            "ipa": "/ˈɪnfluəns/",
+            "pos": "noun",
+            "meaningJa": "影響、影響を与えるもの",
+            "exampleEn": "Many young musicians have cited her as an influence.",
+            "exampleJa": "多くの若いミュージシャンが彼女を影響源として挙げています。",
+            "noteJa": "「cite someone as an influence」で「〜を影響源として挙げる」という便利なコロケーションです。"
           },
           {
-            "word": "definitive",
-            "ipa": "/dɪˈfɪnɪtɪv/",
-            "pos": "adjective",
-            "meaningJa": "決定的な、最終的な、確定した",
-            "exampleEn": "Uncertainty remains over whether a definitive end to the conflict can be reached.",
-            "exampleJa": "紛争の決定的な終結が実現できるかどうか、依然として不透明だ。",
-            "noteJa": "definite（明確な）と混同しやすいが、definitive は「最終的・権威ある」というニュアンスを持つ。"
+            "word": "stroke",
+            "ipa": "/strəʊk/",
+            "pos": "noun",
+            "meaningJa": "脳卒中",
+            "exampleEn": "He learned to play guitar again after suffering a stroke.",
+            "exampleJa": "彼は脳卒中を経験した後、再びギターを弾くことを学びました。",
+            "noteJa": "「suffer a stroke」で「脳卒中になる」という意味。医療や健康の話題でよく出る重要表現です。"
           }
         ],
         "grammar": {
-          "title": "完了不定詞による「実現しなかった予定」の表現",
-          "pattern": "were to have + 過去分詞",
-          "explanationJa": "「were to have＋過去分詞」は、過去に計画・予定されていたが実際には実現しなかった行為を表す。条件節や報道文でよく使われるB2レベルの重要構文。",
-          "fromArticle": "The talks were to have begun in the Swiss village of Obbürgen.",
+          "title": "現在完了形：経験・継続を表す「have + 過去分詞」",
+          "pattern": "have/has + 過去分詞",
+          "explanationJa": "現在完了形は、過去の出来事が現在とつながっていることを表します。「since 1978, they have been one of the UK's most distinctive acts」では、1978年から今もずっとそうであることを示しています。また「he has had a difficult time」のように、過去から現在までの経験や状態を伝えるときに使います。",
+          "fromArticle": "since 1978, they have been one of the UK's most distinctive acts",
           "examplesEn": [
-            "The meeting was to have started at 9 a.m., but it was cancelled.",
-            "They were to have signed the agreement last week, but negotiations broke down."
+            "She has lived in London since 2010.",
+            "I have never heard this song before."
           ],
-          "noteJa": "「was/were going to＋原形」も未実現の予定を表すが、「were to have＋過去分詞」はよりフォーマルで書き言葉・ニュース英語に多く見られる。"
+          "noteJa": "「since＋時点」や「for＋期間」と一緒に使うことが多いです。過去形との違いは「今もつながっているかどうか」がポイントです。"
         }
-      },
+      }
+    ],
+    "B2": [
       {
         "topic": "business",
         "article": {
@@ -391,269 +288,274 @@
           "source": "The Guardian",
           "when": "2026-06-19",
           "url": "https://www.theguardian.com/business/2026/jun/19/hot-weather-rise-uk-retail-sales-may",
-          "summaryJa": "",
+          "summaryJa": "2025年5月、イギリスの小売売上高が記録的な暑さとオンラインプロモーションに後押しされ、大きく回復した。",
+          "explanationJa": "2025年5月、イギリスの小売売上高は前月比1.2%増加し、1月以来最大の伸び率を記録した。記録的な暑さにより扇風機やプール用品の売れ行きが好調だったほか、オンライン販売も6.1%急増した。これはアナリストの予測の2倍以上であり、4月の落ち込みからの顕著な回復を示している。消費者の購買行動が気候条件やプロモーションによって大きく左右されることを示す好例といえる。",
           "paragraphs": [
-            "Retail sales in Great Britain grew 1.2% in May, recovering from a 1% fall in April. Record hot weather spurred purchases of fans and paddling pools, while promotions also helped drive consumer spending.",
-            "Non-store retailing, primarily online retailers, saw sales soar 6.1% compared with April — the strongest monthly rise since February 2025. Department stores and household goods stores also reported solid gains, supported by outdoor furniture promotions during the UK's hottest ever May day."
+            "Retail sales in Great Britain recovered strongly in May, growing 1.2% compared with the previous month. This was the strongest monthly rate of growth since January and more than double what analysts had forecast. The increase marks a clear recovery from a 1% fall in April.",
+            "Record hot weather spurred sales of fans, paddling pools, and outdoor furniture. Non-store retailing, primarily online retailers, enjoyed a bumper month, with sales soaring 6.1% compared with April. Promotions also helped drive purchases across department stores and household goods stores."
           ]
         },
         "vocabulary": [
           {
             "word": "spurred",
             "ipa": "/spɜːrd/",
-            "pos": "verb (past tense of 'spur')",
-            "meaningJa": "〜を促進した、刺激して引き起こした",
-            "exampleEn": "Record hot weather spurred purchases of fans and paddling pools.",
-            "exampleJa": "記録的な猛暑が扇風機とプール用品の購入を促進した。",
-            "noteJa": "「spur」は「拍車をかける」が原義。何かが別の行動や反応を引き起こす際に使うフォーマルな動詞。"
+            "pos": "動詞（spurの過去形）",
+            "meaningJa": "～を促進した、刺激して増加させた",
+            "exampleEn": "Record hot weather spurred sales of fans and paddling pools.",
+            "exampleJa": "記録的な暑さが扇風機やプール用品の売上を促進した。",
+            "noteJa": "「spur」は「拍車をかける」が原義。抽象的・経済的文脈で「需要や行動を引き起こす」意味でよく使われる上級語彙。"
           },
           {
-            "word": "primarily",
-            "ipa": "/ˈpraɪ.mər.ə.li/",
-            "pos": "adverb",
-            "meaningJa": "主に、第一に",
-            "exampleEn": "Non-store retailing, primarily online retailers, saw sales soar 6.1%.",
-            "exampleJa": "店舗外小売り、主にオンライン小売業者の売上が6.1%急増した。",
-            "noteJa": "「mainly」より文語的・学術的な表現。説明や分類を絞り込むときに使われる副詞。"
+            "word": "bumper",
+            "ipa": "/ˈbʌmpər/",
+            "pos": "形容詞",
+            "meaningJa": "（予想を超えて）非常に豊富な、特別好調な",
+            "exampleEn": "Non-store retailing enjoyed a bumper month.",
+            "exampleJa": "オンライン小売業者は特別好調な月を経験した。",
+            "noteJa": "「bumper crop（大豊作）」など農業由来の表現が転じて、ビジネス・報道文脈で「記録的に良い」を意味する。B2上位の語彙。"
           },
           {
-            "word": "solid",
-            "ipa": "/ˈsɒl.ɪd/",
-            "pos": "adjective",
-            "meaningJa": "着実な、確かな、しっかりした（数値・成果に使う）",
-            "exampleEn": "Department stores and household goods stores also reported solid gains.",
-            "exampleJa": "百貨店と家庭用品店も着実な伸びを記録した。",
-            "noteJa": "経済・ビジネス文脈では「good」より精確で信頼性のあるニュアンスを持つ形容詞。B2上位で頻出。"
+            "word": "forecast",
+            "ipa": "/ˈfɔːrkæst/",
+            "pos": "名詞／動詞",
+            "meaningJa": "予測、見通し；予測する",
+            "exampleEn": "The increase was more than double the 0.5% rate of growth forecast by analysts.",
+            "exampleJa": "その増加率はアナリストが予測した0.5%の2倍以上だった。",
+            "noteJa": "日常語の「predict」より改まった語。経済・気象・政策の文脈で頻出し、B2後半で習得すべき重要語。"
           }
         ],
         "grammar": {
-          "title": "比較表現：'more than double'（2倍以上）",
-          "pattern": "more than + 数量表現 + the + 名詞",
-          "explanationJa": "「more than double the 0.5% rate」のように、基準となる数値の何倍かを表す表現。'double'や'triple'などの倍数語と'more than'を組み合わせ、程度を強調する。",
-          "fromArticle": "The increase, more than double the 0.5% rate of growth forecast by analysts, marks a recovery.",
+          "title": "過去分詞による後置修飾（名詞＋過去分詞句）",
+          "pattern": "名詞 + 過去分詞 + (by ～)",
+          "explanationJa": "英語では過去分詞（＋by句など）が名詞の直後に置かれ、その名詞を修飾することがある。これは関係代名詞節（which was forecast by analysts）を短縮した形で、文を簡潔にする。B2レベルでは読解だけでなく、自分でも使えるようになりたい構造。",
+          "fromArticle": "…more than double the 0.5% rate of growth forecast by analysts…",
           "examplesEn": [
-            "Sales were more than double the figure recorded last year.",
-            "The cost is more than triple what we expected."
+            "The results reported by the ONS were surprising.",
+            "The products sold online performed strongly."
           ],
-          "noteJa": "日本語では「〜の2倍以上」と訳せる。ビジネス・経済ニュースで頻繁に使われるB2レベルの重要表現。"
+          "noteJa": "「forecast by analysts」は「which was forecast by analysts」の省略形。能動態の現在分詞（forecasting）と混同しないよう注意。過去分詞は「受け身・完了」の意味を持つ。"
         }
       },
       {
-        "topic": "culture",
+        "topic": "business",
         "article": {
-          "headline": "Jimmy Kimmel on Trump giving Iran $300bn: ‘Melania’s wondering, ‘How can I get that deal?’’",
+          "headline": "City investors fear Labour leadership battle could push up UK bond yields, as UK borrowing jumps in May – as it happened",
           "source": "The Guardian",
-          "when": "2026-06-18",
-          "url": "https://www.theguardian.com/culture/2026/jun/18/jimmy-kimmel-donald-trump-iran-deal",
-          "summaryJa": "",
+          "when": "2026-06-19",
+          "url": "https://www.theguardian.com/business/live/2026/jun/19/uk-borrowing-surges-over-forecasts-in-may-spending-pound-bonds-borrowing-latest-news-updates",
+          "summaryJa": "イギリスの国債利回りが上昇し、財政状況への懸念が高まっています。",
+          "explanationJa": "イギリスでは2025年5月の政府借入額が予想を上回る233億ポンドに達し、財政状況が悪化しています。さらに、労働党の党首交代の可能性（アンディ・バーナムがスターマー首相の後継者になるかもしれないという憶測）が市場の不安を招き、国債利回りが上昇しました。国債利回りの上昇は、政府の借入コストが高くなることを意味し、財政政策に大きな影響を与えます。",
           "paragraphs": [
-            "Late-night host Jimmy Kimmel criticized Donald Trump's behavior at the G7 summit in France. Trump arrived 45 minutes late and introduced himself as 'the boss.' Kimmel described his conduct as increasingly childish, comparing him to a shaken soda can that is bound to spray.",
-            "Kimmel also mocked the Iran deal, which Republicans called a catastrophic foreign policy blunder. The deal reportedly gave Tehran control of the Strait of Hormuz. Kimmel noted that the ayatollah was replaced by a younger, more radical one, while protesters in Iran received no support."
+            "UK government borrowing reached £23.3bn in May, higher than analysts had expected. This jump was partly caused by the economic fallout from the Iran war, which worsened the country's fiscal situation.",
+            "Speculation about a possible Labour leadership contest pushed UK bond yields higher. Analysts warned that if Andy Burnham replaced Keir Starmer, increased borrowing to fund his policies could add further pressure to public finances."
           ]
         },
         "vocabulary": [
           {
-            "word": "blunder",
-            "ipa": "/ˈblʌn.dər/",
+            "word": "fallout",
+            "ipa": "/ˈfɔːl.aʊt/",
             "pos": "noun",
-            "meaningJa": "重大な失敗・へま（特に判断や行動における大きなミス）",
-            "exampleEn": "Republicans called the Iran deal a catastrophic foreign policy blunder.",
-            "exampleJa": "共和党員たちはイラン合意を壊滅的な外交上の大失敗と呼んだ。",
-            "noteJa": "単なる「mistake」より深刻で、しばしば公的・政治的な文脈で使われる上級語。"
+            "meaningJa": "（出来事の）悪影響、余波",
+            "exampleEn": "The economic fallout from the Iran war worsened UK public finances.",
+            "exampleJa": "イラン戦争による経済的余波がイギリスの財政状況を悪化させた。",
+            "noteJa": "もともと「放射性降下物」の意味だが、比喩的に「否定的な結果・影響」として広く使われる上級語彙。"
           },
           {
-            "word": "radical",
-            "ipa": "/ˈræd.ɪ.kəl/",
+            "word": "speculation",
+            "ipa": "/ˌspek.jəˈleɪ.ʃən/",
+            "pos": "noun",
+            "meaningJa": "憶測、推測",
+            "exampleEn": "Speculation about a leadership contest unsettled bond markets.",
+            "exampleJa": "党首交代をめぐる憶測が債券市場を不安定にさせた。",
+            "noteJa": "確証のない推測や噂を指す抽象名詞。ニュースや政治・金融記事で頻出する重要語。"
+          },
+          {
+            "word": "fiscal",
+            "ipa": "/ˈfɪs.kəl/",
             "pos": "adjective",
-            "meaningJa": "急進的な・過激な（既存の体制や価値観を根本から変えようとする）",
-            "exampleEn": "The ayatollah was replaced by a younger, more radical one.",
-            "exampleJa": "最高指導者は、より若く、より過激な人物に交代させられた。",
-            "noteJa": "政治・社会的文脈でよく使われる重要語。「extreme」より正式でニュアンスが豊か。"
-          },
-          {
-            "word": "conduct",
-            "ipa": "/ˈkɒn.dʌkt/",
-            "pos": "noun",
-            "meaningJa": "（公的な場での）行動・振る舞い・態度",
-            "exampleEn": "Kimmel described his conduct as increasingly childish.",
-            "exampleJa": "キンメルは彼の振る舞いをますます子どもっぽいと表現した。",
-            "noteJa": "「behavior」より改まった文脈で使われる語。報道・評論文でよく登場する。"
+            "meaningJa": "財政の、財政上の",
+            "exampleEn": "Whoever becomes prime minister faces a difficult fiscal situation.",
+            "exampleJa": "誰が首相になっても、困難な財政状況に直面することになる。",
+            "noteJa": "政府の歳入・歳出に関わる正式・学術的な形容詞。「financial」より限定的で上位中級語彙。"
           }
         ],
         "grammar": {
-          "title": "bound to 構文（確実性を表す表現）",
-          "pattern": "S + is/are + bound to + 動詞の原形",
-          "explanationJa": "「～するのは確実だ・必ずそうなる」という強い確信を表す。単なる予測（will）より必然性が強く、B2レベルで重要な表現。",
-          "fromArticle": "...a shaken soda can that is bound to spray.",
+          "title": "仮定・条件を表す if 節（条件節）",
+          "pattern": "if + subject + verb (present), subject + could/would + verb",
+          "explanationJa": "条件節は「もし〜ならば」という仮定の状況を表します。記事では「if Burnham has to win a prolonged leadership contest」のように、現在形のif節を使って将来起こりうる条件を示しています。助動詞 could や would と組み合わせることで、その結果が不確実であることも表現できます。B2レベルでは、この構造をニュースや議論の文脈で使いこなすことが重要です。",
+          "fromArticle": "Developing that package will be made even harder if Burnham has to win a prolonged leadership contest.",
           "examplesEn": [
-            "If you ignore the problem, it is bound to get worse.",
-            "She studied so hard that she is bound to pass the exam."
+            "If the government increases borrowing, bond yields could rise further.",
+            "If a leadership battle begins, it would create uncertainty in the markets."
           ],
-          "noteJa": "否定形「bound not to」はほぼ使わない。否定したい場合は「unlikely to」などを使うのが自然。"
+          "noteJa": "if節の動詞が現在形でも、主節に could/would を使うと「現時点では不確実だが十分ありうる」というニュアンスになります。条件の確実性によってshall/will/couldを使い分けましょう。"
+        }
+      },
+      {
+        "topic": "technology",
+        "article": {
+          "headline": "Gig workers are endlessly exploited. AI could make more of us share their fate",
+          "source": "The Guardian",
+          "when": "2026-06-18",
+          "url": "https://www.theguardian.com/technology/2026/jun/18/ai-threatens-gig-work-rise",
+          "summaryJa": "AIが仕事のあり方を変えつつある中、企業は正社員を減らしギグワーカーを増やす傾向がある。",
+          "explanationJa": "スウェーデンの決済企業Klarnaは、AIチャットボットを導入して顧客サービス担当者を削減したが、サービスの質が低下したため人間のスタッフを再雇用した。しかし今度は正社員ではなく、Uberのような形で働くギグワーカーを採用した。この事例は、AIが単純作業を担う一方で、企業が人件費を抑えるためにギグ労働という不安定な雇用形態を拡大する可能性を示しており、労働市場全体に影響を与えうる問題として注目されている。",
+          "paragraphs": [
+            "In 2024, Klarna replaced hundreds of customer service workers with an AI chatbot to save money. However, after customers complained about degraded service quality, the company quietly began recruiting human workers again.",
+            "Instead of hiring full-time employees, Klarna adopted a fragmented, gig-based model. AI handles basic queries, while contracted gig workers manage more advanced ones. This shift reflects how companies may increasingly integrate AI to reduce permanent staff."
+          ]
+        },
+        "vocabulary": [
+          {
+            "word": "degraded",
+            "ipa": "/dɪˈɡreɪdɪd/",
+            "pos": "adjective",
+            "meaningJa": "質や水準が低下した、劣化した",
+            "exampleEn": "Customers complained about the degraded quality of customer service.",
+            "exampleJa": "顧客はサービスの質が低下したことに不満を述べた。",
+            "noteJa": "「degrade」の過去分詞形容詞。品質・状態の悪化を表すやや改まった表現。"
+          },
+          {
+            "word": "fragmented",
+            "ipa": "/ˈfræɡməntɪd/",
+            "pos": "adjective",
+            "meaningJa": "断片化した、分散した（まとまりのない状態）",
+            "exampleEn": "Companies are shifting toward a fragmented workforce.",
+            "exampleJa": "企業は断片化した労働力へとシフトしつつある。",
+            "noteJa": "労働や社会の文脈で「一体性が失われた状態」を表す抽象的な形容詞。B2上位の語彙。"
+          },
+          {
+            "word": "integrate",
+            "ipa": "/ˈɪntɪɡreɪt/",
+            "pos": "verb",
+            "meaningJa": "（システム・要素などを）統合する、組み込む",
+            "exampleEn": "As companies increasingly integrate AI, they will hire fewer full-time employees.",
+            "exampleJa": "企業がAIをより積極的に組み込むにつれ、正社員の採用は減るだろう。",
+            "noteJa": "技術・組織の文脈で頻出する動詞。「取り込んで一体化させる」というニュアンス。"
+          }
+        ],
+        "grammar": {
+          "title": "副詞節を導く接続詞 as（〜するにつれて／〜しながら）",
+          "pattern": "As + S + V, S + V",
+          "explanationJa": "接続詞「as」は「〜するにつれて」や「〜しながら」という意味で、2つの出来事が同時進行・連動することを表す。B2レベルで重要な構文で、変化や推移を描写する際によく使われる。",
+          "fromArticle": "As companies increasingly integrate AI, they will use it to hire fewer full-time employees.",
+          "examplesEn": [
+            "As technology advances, new jobs will be created.",
+            "As she gained more experience, her confidence grew."
+          ],
+          "noteJa": "「as」には「〜なので（理由）」や「〜のように（様態）」の用法もあるが、ここでは時間的な連動・変化を表す用法。文脈で意味を区別することが大切。"
         }
       }
     ],
     "C1": [
       {
-        "topic": "technology",
+        "topic": "culture",
         "article": {
-          "headline": "Telegram questioned by Ofcom after arsonist who targeted Starmer-linked properties recruited on app",
+          "headline": "The Guide #247: As the Wombles stage their latest comeback, what sort of country are they returning to?",
           "source": "The Guardian",
-          "when": "2026-06-19",
-          "url": "https://www.theguardian.com/technology/2026/jun/19/telegram-ofcom-arsonist-starmer-linked-properties",
-          "summaryJa": "",
+          "when": "2026-06-20",
+          "url": "https://www.theguardian.com/culture/2026/jun/19/the-wombles-return-the-guide",
+          "summaryJa": "1970年代に一世を風靡したウォンブルズが復活を遂げる中、その文化的遺産と現代社会への意義を問い直す記事。",
+          "explanationJa": "ウォンブルズは1970年代イギリスで爆発的な人気を誇ったキャラクターで、ごみを拾い再利用するという理念を体現していた。原作者エリザベス・ベレスフォードが生み出したこのキャラクターは、テレビアニメや音楽チャート、さまざまな商品を通じて社会に深く浸透した。記事は、そのウォンブルズが再び脚光を浴びようとしている背景に、環境意識の高まりや懐古的な文化的感傷があることを示唆しており、彼らの「復帰」が現代のイギリス社会にどのような意味を持つかを問いかけている。",
           "paragraphs": [
-            "Telegram is under scrutiny from Ofcom following the conviction of Roman Lavrynovych, a 22-year-old Ukrainian man, for orchestrating arson attacks on properties linked to Prime Minister Keir Starmer. Lavrynovych had been recruited via the messaging app by an anonymous handler known as 'El Money,' who communicated in Russian and Ukrainian and maintained ties to a sabotage network operating out of Russia.",
-            "Ofcom contacted Telegram seeking clarification on how the platform detects and mitigates illegal incitement, invoking obligations under the Online Safety Act. Police recovered over 320 messages exchanged between Lavrynovych and his handler dating back to September 2024, raising pointed questions about Telegram's capacity — and willingness — to intercept content that demonstrably facilitates criminal coordination."
+            "At the height of Womble-mania in the mid-1970s, Elisabeth Beresford's litter-collecting characters became a genuine cultural phenomenon. Their adventures were chronicled in a book series that fed into a stop-motion TV show narrated by Bernard Cribbins, while merchandise of every conceivable variety kept them firmly entrenched in the public consciousness.",
+            "Yet behind the wholesome facade lay shambolic live performances: one disastrous cabaret show in Liverpool featured inaudible singing and under-rehearsed routines, while a Belfast performance was cut short after furious mothers stormed the stage brandishing handbags and umbrellas. Such episodes hint at the chaotic reality beneath the phenomenon's polished, nostalgic veneer."
           ]
         },
         "vocabulary": [
           {
-            "word": "incitement",
-            "ipa": "/ɪnˈsaɪtmənt/",
-            "pos": "noun",
-            "meaningJa": "（違法行為への）扇動、煽動。他者を犯罪や暴力に駆り立てる行為または言論を指す法律・ジャーナリズム用語。",
-            "exampleEn": "The platform was questioned over its failure to prevent illegal incitement by anonymous handlers.",
-            "exampleJa": "そのプラットフォームは、匿名の工作員による違法な扇動を防げなかったとして問い合わせを受けた。",
-            "noteJa": "「incite（煽動する）」の名詞形。'incitement to violence/hatred' のように特定の対象と共に用いられることが多い。法律・政治文脈で頻出。"
+            "word": "entrenched",
+            "ipa": "/ɪnˈtrentʃt/",
+            "pos": "adjective",
+            "meaningJa": "深く根付いた、確固として動かせない状態の",
+            "exampleEn": "Merchandise of every variety kept them firmly entrenched in the public consciousness.",
+            "exampleJa": "あらゆる種類のグッズが彼らを大衆の意識に深く根付かせ続けた。",
+            "noteJa": "主に考え方・慣習・地位などが「容易に変えられないほど定着している」ことを表す。ジャーナリズムで頻出の語。"
           },
           {
-            "word": "scrutiny",
-            "ipa": "/ˈskruːtɪni/",
-            "pos": "noun",
-            "meaningJa": "厳密な調査・監視。特に権力機関や組織が詳細かつ批判的に検査される状況を指す。",
-            "exampleEn": "Telegram is under scrutiny from Ofcom following the conviction of a man who used the app to coordinate arson.",
-            "exampleJa": "テレグラムは、放火の調整にアプリを使用した男の有罪判決を受け、Ofcomの厳しい監視下に置かれている。",
-            "noteJa": "'under scrutiny' は定型表現として質の高いジャーナリズムに頻出。'close/intense scrutiny' のように強調副詞と共に使われることも多い。"
+            "word": "shambolic",
+            "ipa": "/ʃæmˈbɒlɪk/",
+            "pos": "adjective",
+            "meaningJa": "ひどく混乱した、無秩序な（主に英国英語）",
+            "exampleEn": "Behind the wholesome facade lay shambolic live performances.",
+            "exampleJa": "健全なイメージの裏には、ひどく混乱したライブパフォーマンスが隠れていた。",
+            "noteJa": "英国ジャーナリズム特有の語。組織・出来事などが「てんやわんやで機能していない」様子を批判的に描写する際に使われる。"
           },
           {
-            "word": "demonstrably",
-            "ipa": "/dɪˈmɒnstrəbli/",
-            "pos": "adverb",
-            "meaningJa": "明白に、証拠をもって示せる形で。主張や事実が反証できないほど明確であることを示す副詞。",
-            "exampleEn": "The messages demonstrably facilitated criminal coordination between the handler and the arsonist.",
-            "exampleJa": "そのメッセージは、工作員と放火犯の間の犯罪的な連携を明白に促進していた。",
-            "noteJa": "単なる 'clearly' より論証・証拠のニュアンスが強く、法的・学術的文脈で好まれる。'demonstrably false/true/harmful' などの形で使われる。"
+            "word": "veneer",
+            "ipa": "/vəˈnɪər/",
+            "pos": "noun",
+            "meaningJa": "表面上の取り繕い、薄皮一枚の見せかけ",
+            "exampleEn": "These episodes hint at the chaotic reality beneath the phenomenon's polished, nostalgic veneer.",
+            "exampleJa": "これらの出来事は、その現象の磨き上げられた懐古的な表面の下に潜む混乱した実態を示唆している。",
+            "noteJa": "元々は「化粧板（薄い木材）」の意。比喩的に「本質を覆い隠す薄っぺらな外見」を指し、批評的文章で好まれる語。"
           }
         ],
         "grammar": {
-          "title": "分詞構文による付帯状況・理由の表現",
-          "pattern": "[分詞句], [主節] / [主節], [分詞句]",
-          "explanationJa": "分詞構文は、接続詞を使わずに副詞節の意味（理由・付帯状況・結果など）を表す高度な構文。C1レベルでは読解だけでなく自分の文章にも積極的に取り入れたい。",
-          "fromArticle": "Ofcom contacted Telegram seeking clarification on how the platform detects and mitigates illegal incitement, invoking obligations under the Online Safety Act.",
+          "title": "分詞構文による付帯状況・様態の表現",
+          "pattern": "主節 + 現在分詞句（brandishing / featuring など）",
+          "explanationJa": "分詞構文は、主節の動作と同時に起きている状況や手段・様態を簡潔に示す。C1レベルでは、単なる「～しながら」にとどまらず、視覚的な臨場感や追加情報を効果的に付加する表現として書き言葉・報道文章で多用される。",
+          "fromArticle": "…furious mothers storming the stage brandishing handbags and umbrellas.",
           "examplesEn": [
-            "The handler recruited Lavrynovych via Telegram, offering payment for the attacks.",
-            "Invoking its powers under the Online Safety Act, Ofcom demanded further clarification from the app."
+            "The protesters marched through the city, chanting slogans and blocking traffic.",
+            "She left the meeting abruptly, slamming the door behind her."
           ],
-          "noteJa": "'seeking clarification' や 'invoking obligations' のように、主節の動作と同時進行する行為や、主節の根拠・手段を簡潔に添える際に使う。主語が主節と一致することが原則。文語・ジャーナリズム英語で特に多用される。"
-        }
-      },
-      {
-        "topic": "technology",
-        "article": {
-          "headline": "Attorney general tells department to stop using X amid UK disinformation concerns",
-          "source": "The Guardian",
-          "when": "2026-06-18",
-          "url": "https://www.theguardian.com/technology/2026/jun/18/uk-attorney-general-tells-staff-stop-using-x-disinformation-concerns",
-          "summaryJa": "",
-          "paragraphs": [
-            "Richard Hermer, Attorney General for England and Wales, has directed his office to cease posting on X, marking the first instance of a UK government department withdrawing from the Elon Musk-owned platform. The decision follows disorder in Southampton and Belfast, where far-right actors allegedly exploited X to incite violence and division. Downing Street, however, continues to defend government departments' presence on the platform, arguing it remains indispensable for reaching the broader public.",
-            "Hermer is understood to be particularly concerned that X, more than rival platforms, is being weaponised by bad actors to fragment communities along racial lines. His department will retain limited access solely for the purpose of combatting disinformation circulating on the site. The move signals a notable shift in posture among ministers increasingly troubled by social media's role in amplifying far-right narratives and precipitating real-world unrest."
-          ]
-        },
-        "vocabulary": [
-          {
-            "word": "weaponised",
-            "ipa": "/ˈwepənaɪzd/",
-            "pos": "動詞（過去分詞）",
-            "meaningJa": "（本来無害なものを）悪用・凶器化された。情報やプラットフォームなどを攻撃的な手段として利用することを指す比喩的表現。",
-            "exampleEn": "X is being weaponised by bad actors to fragment communities along racial lines.",
-            "exampleJa": "Xは悪意ある者たちによって、人種的な分断を煽る手段として悪用されている。",
-            "noteJa": "ジャーナリズムで頻出の比喩表現。物理的な武器化ではなく、情報・言論・法律などの「道具化・悪用」を意味する。"
-          },
-          {
-            "word": "indispensable",
-            "ipa": "/ˌɪndɪˈspensəbl/",
-            "pos": "形容詞",
-            "meaningJa": "不可欠な、なくてはならない。代替が効かないほど重要であることを強調する改まった語。",
-            "exampleEn": "Downing Street argues that X remains indispensable for reaching the broader public.",
-            "exampleJa": "ダウニング街は、Xが広く国民にリーチするために不可欠だと主張している。",
-            "noteJa": "'necessary'より格式が高く、ニュアンスも強い。政策・外交・ビジネス文書でよく使われる。"
-          },
-          {
-            "word": "precipitating",
-            "ipa": "/prɪˈsɪpɪteɪtɪŋ/",
-            "pos": "動詞（現在分詞）",
-            "meaningJa": "（好ましくない事態を）引き起こす、招く。特に予期せず急速に事態を悪化させる場合に用いる。",
-            "exampleEn": "Ministers are troubled by social media's role in amplifying far-right narratives and precipitating real-world unrest.",
-            "exampleJa": "閣僚たちは、ソーシャルメディアが極右の言説を増幅し現実の暴動を招いていることを懸念している。",
-            "noteJa": "'cause'や'trigger'より改まった語で、因果関係の速さと不可避性を含意する。質の高い報道文で頻出。"
-          }
-        ],
-        "grammar": {
-          "title": "強調の倒置：'solely for the purpose of ...'と目的節の格式的用法",
-          "pattern": "retain [access / a role] solely for the purpose of [動名詞句]",
-          "explanationJa": "「solely for the purpose of -ing」は「〜するためだけに」という目的を格式的・限定的に述べる構文。'only to'より書き言葉的で、法律・行政・ジャーナリズムの文体に適している。",
-          "fromArticle": "His department will retain limited access solely for the purpose of combatting disinformation circulating on the site.",
-          "examplesEn": [
-            "The data may be retained solely for the purpose of verifying identity.",
-            "She remained in contact solely for the purpose of monitoring developments."
-          ],
-          "noteJa": "'solely'を加えることで「それ以外の目的は一切ない」という強い限定の意味が生まれる。C1レベルの論述・ライティングで使いこなせると表現の精度が上がる。"
+          "noteJa": "分詞構文の主語は必ず主節の主語と一致する点に注意。接続詞を使わず情報を積み重ねるこの構造は、ジャーナリズム特有の簡潔で力強い文体を生む。"
         }
       },
       {
         "topic": "world",
         "article": {
-          "headline": "Macron calls for vigilance as western Europe faces second heatwave of year",
+          "headline": "SUV buyers undeterred by warnings of risk to pedestrians, UK study finds",
           "source": "The Guardian",
-          "when": "2026-06-19",
-          "url": "https://www.theguardian.com/world/2026/jun/19/macron-calls-for-vigilance-as-western-europe-faces-second-heatwave-of-year",
-          "summaryJa": "",
+          "when": "2026-06-20",
+          "url": "https://www.theguardian.com/world/2026/jun/20/suv-risks-warnings-road-safety-buyers-uk-study",
+          "summaryJa": "英国の研究によると、SUVが歩行者や自転車利用者に与えるリスクを警告されても、購入意欲はほとんど変わらないことが明らかになった。スウォンジー大学の心理学者たちは、大型車を減らすには財政的ペナルティが必要だと結論づけている。",
+          "explanationJa": "この研究は、SUVが通常の乗用車と比べて歩行者や自転車利用者にとって著しく危険であることを示す既存の安全データを踏まえ、警告表示が消費者の購買行動を変えるかどうかを検証したものである。2,000人以上を対象にした実験では、警告を見たグループでリスク認識は高まったものの、SUVの購入意向はほとんど変化しなかった。この結果は、情報提供だけでは行動変容を促すには不十分であり、政府が税や罰則などの経済的手段に頼らざるを得ない可能性を示唆しており、自動車政策や公共安全の観点から重要な示唆を与えている。",
           "paragraphs": [
-            "Large swathes of western Europe are enduring their second extreme heat event of 2026, with Météo-France extending its orange heatwave alert to 60 of France's 96 mainland departments. Temperatures are forecast to exceed 40°C, and the national weather service warned the episode could equal the severity and duration of the catastrophic August 2003 heatwave, which claimed more than 14,800 lives — the majority elderly care home residents.",
-            "President Macron urged extreme vigilance, calling on citizens to look after the most vulnerable members of society. Rail operator SNCF cancelled 71 intercity trains and schools rescheduled exams as disruption mounted. Météo-France cautioned that alerts in several departments could be raised to red — the highest designation — over the weekend, and noted that France had already shattered monthly temperature records during an unusually hot spell in May."
+            "A UK study involving over 2,000 participants found that informing prospective buyers about the heightened fatality risk SUVs pose to pedestrians and cyclists did little to deter purchase intentions. Though awareness of the risks rose markedly among those exposed to warning labels, their willingness to buy such vehicles remained largely undeterred.",
+            "Psychologists at Swansea University, who led the research, concluded that financial penalties are likely the only viable mechanism for curbing demand for oversized vehicles. A meta-analysis cited in the study found that pedestrians struck by an SUV faced a 44% greater likelihood of fatality compared with those hit by smaller cars — a figure rising to 82% for children."
           ]
         },
         "vocabulary": [
           {
-            "word": "swathes",
-            "ipa": "/sweɪðz/",
-            "pos": "noun (plural)",
-            "meaningJa": "広大な範囲・地帯。特定の地域が広く覆われている様子を表すジャーナリズム頻出表現。",
-            "exampleEn": "Large swathes of western Europe are enduring extreme heat.",
-            "exampleJa": "西ヨーロッパの広大な地域が極端な熱波に見舞われている。",
-            "noteJa": "「a swathe of」は「～の広い範囲」という意味で、報道文では地域・人口・産業などの大規模な広がりを表す際に多用される。"
-          },
-          {
-            "word": "catastrophic",
-            "ipa": "/ˌkætəˈstrɒfɪk/",
+            "word": "undeterred",
+            "ipa": "/ˌʌndɪˈtɜːd/",
             "pos": "adjective",
-            "meaningJa": "壊滅的な、大惨事をもたらす。単なる「ひどい」を超え、取り返しのつかない規模の被害を含意する。",
-            "exampleEn": "The episode could equal the severity of the catastrophic August 2003 heatwave.",
-            "exampleJa": "今回の熱波は、壊滅的な被害をもたらした2003年8月の熱波に匹敵する可能性がある。",
-            "noteJa": "「disastrous」より深刻度・規模が大きく、돌이킬 수 없는 결과를 강조할 때 쓰인다。報道・外交・経済分野で広く使われる形容詞。"
+            "meaningJa": "抑止されない、思いとどまらない",
+            "exampleEn": "Buyers remained undeterred despite warnings about pedestrian fatality risks.",
+            "exampleJa": "歩行者の死亡リスクについての警告にもかかわらず、購入者は購買意欲を失わなかった。",
+            "noteJa": "「deter（思いとどまらせる）」の否定形。ジャーナリズムで反応や行動の頑固さを表す際に頻出する表現。"
           },
           {
-            "word": "designation",
-            "ipa": "/ˌdezɪɡˈneɪʃən/",
-            "pos": "noun",
-            "meaningJa": "（公式な）区分・指定・呼称。単なる「名前」ではなく、権限ある機関が正式に付与した分類・ステータスを指す。",
-            "exampleEn": "Alerts could be raised to red — the highest designation — over the weekend.",
-            "exampleJa": "週末にかけて、警戒レベルが最高区分である赤に引き上げられる可能性がある。",
-            "noteJa": "行政・法律・気象など公的文脈で「label」や「category」より格式が高い。動詞形 designate（指定する）も合わせて押さえたい。"
+            "word": "viable",
+            "ipa": "/ˈvaɪəbl/",
+            "pos": "adjective",
+            "meaningJa": "実行可能な、現実的に成立しうる",
+            "exampleEn": "Financial penalties are likely the only viable mechanism for curbing demand.",
+            "exampleJa": "財政的ペナルティが需要を抑制するための唯一の実行可能な手段である可能性が高い。",
+            "noteJa": "単なる「possible」より強く「現実的に機能しうる」というニュアンスを持つ。政策・経済・科学の文脈で頻繁に用いられる。"
+          },
+          {
+            "word": "curbing",
+            "ipa": "/ˈkɜːbɪŋ/",
+            "pos": "verb (present participle)",
+            "meaningJa": "（望ましくないものを）抑制すること、歯止めをかけること",
+            "exampleEn": "Governments may need stricter taxes for curbing demand for oversized vehicles.",
+            "exampleJa": "政府は大型車への需要を抑制するために、より厳しい課税が必要かもしれない。",
+            "noteJa": "「reduce」より意図的な抑制・制御のニュアンスが強く、政策や規制の議論でよく使われる動詞。"
           }
         ],
         "grammar": {
-          "title": "could + 原形：現在・未来の可能性（認識的モダリティ）",
-          "pattern": "could + bare infinitive",
-          "explanationJa": "「could」は過去の「can」の形だが、現在・未来の文脈では「～する可能性がある」という認識的モダリティ（話者の推量・見込み）を表す。「may」より確信度がやや低く、ジャーナリズムでは断定を避けながら可能性を示す際に多用される。",
-          "fromArticle": "Some alerts could be raised to red, the highest level.",
+          "title": "仮定・条件を表す if 節と likely の組み合わせ（C1レベルの婉曲的断言）",
+          "pattern": "if + subject + want(s) to do, it is likely to require ...",
+          "explanationJa": "「if governments want to reduce ..., it is likely to require financial penalties」のように、条件節と「it is likely to」を組み合わせることで、断定を避けながらも強い推論・予測を表現できる。C1レベルのライティングや報道文では、断定的な言い切りを避け、このような婉曲的・分析的な表現が好まれる。",
+          "fromArticle": "if governments want to reduce the number of large, dangerous vehicles on the roads, it is likely to require financial penalties",
           "examplesEn": [
-            "This event could equal that of August 2003 in terms of duration and severity.",
-            "Several more departments could be added over the weekend."
+            "If authorities wish to tackle air pollution effectively, it is likely to require binding legislation.",
+            "If the trend continues, it is likely to result in significant economic disruption."
           ],
-          "noteJa": "「could」と「might」はほぼ同義だが、「could」は条件や前提が暗示されることが多い。また「could be raised」のように受動態と組み合わさると、主語への行為の可能性を丁寧に示す。報道英語では断言を避けるための重要な表現。"
+          "noteJa": "「it is likely to」は主語を「it」にして文を形式的に構造化する表現で、学術的・報道的文章に多い。「probably will」より格式が高く、C1以上の筆記で積極的に使いたい構文。"
         }
       }
     ]
