@@ -102,6 +102,13 @@
   .lv-tag{background:var(--ink); color:#fff; font-family:var(--mono); padding:2px 8px; border-radius:6px;}
   .article h2{font-family:var(--serif); font-size:26px; line-height:1.3; margin:0;}
   .summary{font-size:13px; color:var(--muted); border-left:3px solid var(--amber); padding-left:12px; margin-top:10px;}
+  .explain{margin-top:16px; background:#fff; border:1px solid var(--line); border-radius:12px; padding:0 14px;}
+  .explain summary{cursor:pointer; list-style:none; padding:12px 0; font-weight:700; font-size:14px; color:#374151; display:flex; align-items:center; gap:6px;}
+  .explain summary::-webkit-details-marker{display:none;}
+  .explain summary::before{content:"📝";}
+  .explain summary::after{content:"＋"; margin-left:auto; color:#9aa3b2; font-weight:700;}
+  .explain[open] summary::after{content:"−";}
+  .explain .ex-body{padding:0 0 14px; line-height:1.8; color:#374151;}
   .body{font-size:17px; line-height:1.8; margin-top:16px;}
   .body p{margin:0 0 12px;}
   .taphint{font-size:12px; color:#9aa3b2; margin-top:-2px;}
@@ -178,6 +185,15 @@
   .toast{position:fixed; left:50%; bottom:26px; transform:translateX(-50%) translateY(20px); opacity:0; pointer-events:none;
     background:var(--ink); color:#fff; font-size:14px; font-weight:600; padding:10px 18px; border-radius:99px; transition:.2s; z-index:50; box-shadow:0 6px 20px rgba(0,0,0,.18);}
   .toast.show{opacity:1; transform:translateX(-50%) translateY(0);}
+  .wordpop{position:fixed; left:50%; bottom:24px; transform:translateX(-50%) translateY(12px); opacity:0; pointer-events:none;
+    background:#fff; border:1px solid var(--line); border-radius:14px; box-shadow:0 8px 28px rgba(0,0,0,.18);
+    padding:14px 16px; z-index:60; min-width:250px; max-width:88vw; transition:.18s;}
+  .wordpop.show{opacity:1; transform:translateX(-50%) translateY(0); pointer-events:auto;}
+  .wordpop .wp-word{font-family:var(--serif); font-size:21px; font-weight:700;}
+  .wordpop .wp-ipa{font-family:var(--mono); font-size:13px; color:var(--accent); margin-top:2px;}
+  .wordpop .wp-mean{color:var(--muted); font-size:13px; margin-top:3px;}
+  .wordpop .wp-row{display:flex; gap:8px; margin-top:12px;}
+  .wordpop .wp-row .btn{flex:1; padding:10px 14px; font-size:14px;}
   @media (max-width:520px){ .masthead h1{font-size:32px;} .article h2{font-size:22px;} .toeic{font-size:34px;} .navbtn{margin-right:12px;} }
   @media (prefers-reduced-motion: reduce){ *{transition:none !important;} }
 </style>
@@ -197,14 +213,15 @@
   <main id="app"></main>
 </div>
 <div id="toast" class="toast"></div>
+<div id="wordpop" class="wordpop"></div>
 
 <script>
 /* ============ Firebase 設定（HSKアプリのものを貼り付け。未設定ならローカルのみ） ============ */
 var FIREBASE_CONFIG = {
-  apiKey: "AIzaSyCXGj_exdeYVpfxePgo6HHShSQ-ArM4uDQ",
-  authDomain: "hsk4-ee5c2.firebaseapp.com",
-  projectId: "hsk4-ee5c2",
-  appId: "1:1088820844889:web:2aebed464271c02f359448"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_PROJECT.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  appId: "YOUR_APP_ID"
 };
 
 /* ===================== 埋め込みフォールバック（A2〜C2） ===================== */
@@ -215,6 +232,7 @@ var FALLBACK = {
       topic:"science",
       article:{ headline:"Scientists Find a New Way to Save Coral Reefs", source:"The Guardian", when:"サンプル", url:"https://www.theguardian.com/",
         summaryJa:"研究者たちが、弱ったサンゴ礁を救う新しい方法を見つけました。",
+        explanationJa:"地球温暖化で海水温が上がり、サンゴが弱って死んでしまう問題を扱った記事です。研究チームは丈夫な稚サンゴを実験室で育ててから海に戻す手法を試し、各地のサンゴ礁を守れると期待しています。",
         paragraphs:[
           "Scientists have found a new way to help coral reefs. Warmer seas damage the coral, and many reefs may not survive. The team wanted a method to make them stronger.",
           "They grew young coral in a lab and then put it back in the sea. The early results look good. The scientists hope this method can protect reefs in many countries."
@@ -230,6 +248,7 @@ var FALLBACK = {
       topic:"world",
       article:{ headline:"New Bus Service Helps People in Small Towns", source:"The Guardian", when:"サンプル", url:"https://www.theguardian.com/",
         summaryJa:"小さな町で新しいバス路線が始まり、生活が便利になりました。",
+        explanationJa:"車がないと移動が難しかった小さな町に、安くて1時間ごとに走る新しいバス路線ができたという話題です。特に高齢者が病院や買い物に行きやすくなり、利用の広がりが期待されています。",
         paragraphs:[
           "A new bus service has started in several small towns. Before, many people could not travel far without a car. The buses are cheap and run every hour.",
           "Older people are very happy with the change. They can now visit doctors and shops more easily. The town hopes more people will use the buses soon."
@@ -246,6 +265,7 @@ var FALLBACK = {
       topic:"technology",
       article:{ headline:"Cities Test Small Robots That Deliver Groceries", source:"The Guardian", when:"サンプル", url:"https://www.theguardian.com/",
         summaryJa:"いくつかの都市が、食料品を運ぶ小型ロボットの試験を始めています。",
+        explanationJa:"歩道をゆっくり走って食料品を届ける小型ロボットを、複数の都市が試験導入しているという記事です。交通量や排気ガスを減らせると期待される一方、配達の仕事を奪うのではという批判も紹介されています。",
         paragraphs:[
           "Several cities are testing small robots that deliver groceries. The robots travel slowly on the pavement, so they rarely put pedestrians at risk. Supporters say they could replace some delivery vans and cut pollution.",
           "Critics are less convinced. They warn that the robots may take away jobs, and that the streets could become crowded if too many appear at once."
@@ -261,6 +281,7 @@ var FALLBACK = {
       topic:"world",
       article:{ headline:"Country Plans to Plant a Billion Trees by 2030", source:"The Guardian", when:"サンプル", url:"https://www.theguardian.com/",
         summaryJa:"ある国が2030年までに10億本の植樹を目指す計画を発表しました。",
+        explanationJa:"ある国が2030年までに10億本を植える計画を発表したという内容です。雇用創出と気候目標の達成につながると説明される一方、植林だけでは問題解決に不十分だという慎重な声も併記されています。",
         paragraphs:[
           "The government has announced an ambitious plan to plant one billion trees by 2030. Officials say the project will create thousands of jobs and help the country meet its climate targets.",
           "Environmental groups have welcomed the announcement, although some warn that planting trees alone will not be enough to tackle the wider problem."
@@ -277,6 +298,7 @@ var FALLBACK = {
       topic:"business",
       article:{ headline:"Remote Work Puts City Centres Under Scrutiny", source:"The Guardian", when:"サンプル", url:"https://www.theguardian.com/",
         summaryJa:"在宅勤務の広がりで、都市の中心部が前例のない見直しを迫られています。",
+        explanationJa:"在宅勤務の広がりで、これまで不可欠とされた都心のオフィスビルが空き、その存在意義が問われているという記事です。分析筋は、住宅や文化施設へ転用するなど都市が柔軟に対応できれば再生も可能だと見ています。",
         paragraphs:[
           "The shift to remote work has placed city centres under unprecedented scrutiny. Office towers that once seemed indispensable now stand half-empty, and landlords face mounting pressure to adapt.",
           "Yet some analysts remain cautiously optimistic. Cities that prove resilient, they argue, will convert surplus offices into housing and culture, provided that planners act decisively rather than cling to the past."
@@ -292,6 +314,7 @@ var FALLBACK = {
       topic:"technology",
       article:{ headline:"AI Tools Reshape the Newsroom", source:"The Guardian", when:"サンプル", url:"https://www.theguardian.com/",
         summaryJa:"報道現場がAIツールを導入し、記者の働き方が変わりつつあります。",
+        explanationJa:"報道機関が要約作成やデータ分析にAIを導入し始め、記者を「置き換える」のではなく「補強する」と説明している記事です。一方で見えにくい偏りが生じる懸念があり、読者の信頼を保つには透明性が欠かせないと指摘されています。",
         paragraphs:[
           "Newsrooms are increasingly deploying AI tools to draft summaries and sift through data. Editors insist the technology augments reporters rather than replacing them, though scepticism persists.",
           "Critics warn of subtle biases that may go undetected. Transparency, they contend, is essential if readers are to retain trust in what they consume."
@@ -308,6 +331,7 @@ var FALLBACK = {
       topic:"culture",
       article:{ headline:"Museums Quietly Abandon the Single Story", source:"The Guardian", when:"サンプル", url:"https://www.theguardian.com/",
         summaryJa:"博物館が「唯一の正史」という考え方を静かに手放しつつあります。",
+        explanationJa:"博物館が「唯一の正史」という考え方をやめ、対立する複数の視点を併存させる展示へ静かに移行しているという論考です。中立的かつ急進的だと評価する一方、視点を増やしすぎると一貫した歴史像が失われるという懐疑論も併記されています。",
         paragraphs:[
           "Museums are quietly abandoning the notion of a single, authoritative story. Curators now favour displays that hold competing perspectives in tension, an approach ostensibly neutral yet quietly radical. Rarely have institutions so openly questioned their own authority.",
           "Sceptics are unconvinced. To conflate every viewpoint, they argue, is to leave the public adrift, with no coherent thread to follow through an increasingly contested past."
@@ -323,6 +347,7 @@ var FALLBACK = {
       topic:"science",
       article:{ headline:"The Quiet Limits of Scientific Consensus", source:"The Guardian", when:"サンプル", url:"https://www.theguardian.com/",
         summaryJa:"「科学的コンセンサス」が最終結論ではなく暫定的である理由を論じます。",
+        explanationJa:"「科学的コンセンサス」は最終結論ではなく暫定的なもので、新たな証拠で覆りうるという論考です。筆者は、自らを修正できることこそ科学の強みであり、それを失えば科学ではなくなると論じています。",
         paragraphs:[
           "Scientific consensus, often invoked as the final word, is in practice provisional. New evidence can overturn what once seemed settled, and the most rigorous researchers treat their conclusions as tentative.",
           "This is not a weakness but a strength. A discipline that cannot revise itself ceases, in any meaningful sense, to be scientific."
@@ -339,6 +364,7 @@ var FALLBACK = {
       topic:"world",
       article:{ headline:"Why the Dispute Resists Every Easy Answer", source:"The Guardian", when:"サンプル", url:"https://www.theguardian.com/",
         summaryJa:"なぜこの論争があらゆる安易な解決策をはねつけるのか、その構造を読み解きます。",
+        explanationJa:"ある論争がなぜあらゆる安易な解決策をはねつけるのか、その構造を分析した評論です。どの対策も相殺し合う圧力を生み、もっともらしいが誤った論法に依存しがちで、批判は鋭くても代案を欠くため議論が堂々巡りになると指摘します。",
         paragraphs:[
           "The dispute has proved remarkably intractable. Each proposed remedy generates countervailing pressures, and what looks like progress often rests on specious reasoning that collapses under scrutiny.",
           "Persuasive as these critiques are, they seldom offer a workable alternative. The result is a debate that circles endlessly, mistaking eloquence for analysis."
@@ -354,6 +380,7 @@ var FALLBACK = {
       topic:"culture",
       article:{ headline:"On the Seduction of Tidy Narratives", source:"The Guardian", when:"サンプル", url:"https://www.theguardian.com/",
         summaryJa:"歴史を「きれいな物語」にまとめたくなる誘惑と、その危うさを論じます。",
+        explanationJa:"歴史家が過去の矛盾をならして「きれいな物語」にまとめたくなる誘惑と、その危うさを論じた評論です。優雅さを正確さと取り違えるのは重大な誤りであり、過去はそうした単純化に頑として抵抗する、と述べています。",
         paragraphs:[
           "Historians are perennially tempted to impose coherence on the past, smoothing its contradictions into a tidy arc. Such narratives are seductive precisely because they are simpler than the truth.",
           "Yet to mistake elegance for accuracy is a cardinal error. The past, stubbornly, resists the shapes we would press upon it."
@@ -422,6 +449,20 @@ function touchLocal(){ try{ localStorage.setItem(UPD_KEY, String(Date.now())); }
 
 var _toastTimer=null;
 function toast(msg){ var t=document.getElementById("toast"); if(!t) return; t.textContent=msg; t.classList.add("show"); clearTimeout(_toastTimer); _toastTimer=setTimeout(function(){ t.classList.remove("show"); }, 1600); }
+
+/* 本文の語をタップ → 確認してから追加（誤タップ防止） */
+var pendingWord=null;
+function showWordPop(obj){
+  pendingWord=obj;
+  var el=document.getElementById("wordpop"); if(!el) return;
+  var ipa=obj.ipa?'<div class="wp-ipa">'+esc(obj.ipa)+'</div>':"";
+  var mean=obj.meaningJa?'<div class="wp-mean">'+esc(obj.meaningJa)+'</div>':'<div class="wp-mean">意味は後でマイ単語で追加できます</div>';
+  el.innerHTML='<div class="wp-word">'+esc(obj.word)+'</div>'+ipa+mean
+    +'<div class="wp-row"><button class="btn btn-dark" data-action="confirmAddWord">＋ マイ単語に追加</button>'
+    +'<button class="btn btn-ghost" data-action="closeWordPop">閉じる</button></div>';
+  el.classList.add("show");
+}
+function closeWordPop(){ var el=document.getElementById("wordpop"); if(el) el.classList.remove("show"); pendingWord=null; }
 
 /* ---- マイ単語 ---- */
 function loadWords(){ try{ return JSON.parse(localStorage.getItem(MW_KEY)||"[]"); }catch(e){ return []; } }
@@ -635,6 +676,7 @@ function viewLesson(){
   var summary=a.summaryJa?'<p class="summary">'+esc(a.summaryJa)+'</p>':"";
   var paras=(a.paragraphs||[]).map(function(p){ return '<p>'+tokenize(p, words)+'</p>'; }).join("");
   var readmore=a.url?'<a class="readmore" href="'+escAttr(a.url)+'" target="_blank" rel="noreferrer">原文を読む ↗</a>':"";
+  var explain=a.explanationJa?'<details class="explain"><summary>日本語解説</summary><div class="ex-body">'+esc(a.explanationJa)+'</div></details>':"";
   var idx=CONTENT_LEVELS.indexOf(state.level);
   var easierDis=idx<=0?" disabled":""; var harderDis=idx>=CONTENT_LEVELS.length-1?" disabled":"";
   var tweak='<div class="leveltweak"><span class="lab">難易度</span>'
@@ -647,7 +689,7 @@ function viewLesson(){
     : '<button class="btn btn-amber btn-full" data-action="complete" style="margin-top:28px">✓ 読み終えた（完了）</button>';
   var nextDis="";
   return '<div style="padding-top:16px"><article class="article"><div class="article-meta">'+meta+'</div><h2>'+esc(a.headline)+'</h2>'+summary
-    + '<div class="body">'+paras+'</div><p class="taphint">語をタップでマイ単語に追加・★で見出し語を保存</p>'+readmore+tweak+'</article>'
+    + '<div class="body">'+paras+'</div><p class="taphint">語をタップ→確認してマイ単語に追加・★で見出し語を保存</p>'+readmore+explain+tweak+'</article>'
     + '<div class="group-head">📖 <h3>今日の単語 <span class="num">3</span></h3></div>'+vcards
     + '<div class="group-head">🎓 <h3>今日の文法 <span class="num">1</span></h3></div>'+grammarCard(lesson.grammar)
     + compBlock
@@ -819,7 +861,7 @@ function changeLevel(dir){
 /* ===================== イベント（document 全体で委譲＝ナビも対象） ===================== */
 document.body.addEventListener("click", function(e){
   var btn=e.target.closest("[data-action]");
-  if(!btn) return;
+  if(!btn){ if(!e.target.closest("#wordpop")) closeWordPop(); return; }
   var a=btn.dataset.action;
   if(a==="start"){ state.qIndex=0; state.score=0; state.points=0; state.picked=null; state.view="study"; state.screen="test"; render(); }
   else if(a==="resume"){ var s=null; try{ s=JSON.parse(localStorage.getItem(ASSESS_KEY)); }catch(e){} if(s){ state.assess=s; state.level=s.content; state.screen="result"; render(); } }
@@ -852,10 +894,13 @@ document.body.addEventListener("click", function(e){
     var match=null, srcH="";
     if(lesson){ srcH=lesson.article.headline; for(var k=0;k<lesson.vocabulary.length;k++){ if(lesson.vocabulary[k].word.toLowerCase()===w.toLowerCase()){ match=lesson.vocabulary[k]; break; } } }
     var obj=match?{ word:match.word, ipa:match.ipa, meaningJa:match.meaningJa, exampleEn:match.exampleEn, source:srcH }:{ word:w, source:srcH };
-    var r=addWord(obj);
-    toast(r==="exists"?("「"+w+"」は登録済み"):("「"+w+"」を追加しました"));
-    updateCount();
+    showWordPop(obj);
   }
+  else if(a==="confirmAddWord"){
+    if(pendingWord){ var pw=pendingWord.word; var r=addWord(pendingWord); toast(r==="exists"?("「"+pw+"」は登録済み"):("「"+pw+"」を追加しました")); updateCount(); }
+    closeWordPop();
+  }
+  else if(a==="closeWordPop"){ closeWordPop(); }
   else if(a==="bmVocab"){
     var word=btn.dataset.word;
     if(isSaved(word)){ removeWordByText(word); btn.textContent="☆"; btn.classList.remove("on"); toast("マイ単語から削除しました"); }
